@@ -10,8 +10,3 @@ Accès par matière et niveau:
 |[NSI Spécialité première](nsi/1/index.md)|
 |[NSI Spécialité terminale](nsi/t/index.md)|
 
-[ess](es.md)
-[rr](Welcome file.html)
-
-
-[e](essai2.html)
