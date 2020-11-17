@@ -14,4 +14,4 @@
 
 
 ## Le nombre dérivé
-- [Le cours et les savoir-faire](ma_1_ch4.pdf)
+- [Le cours et les savoir-faire](m_1_ch4.pdf)
