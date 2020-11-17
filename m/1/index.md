@@ -14,4 +14,5 @@
 
 
 ## Le nombre dérivé
+- [L'activité préparatoire](m_1_ch4_act.pdf)
 - [Le cours et les savoir-faire](m_1_ch4.pdf)
