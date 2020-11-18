@@ -17,7 +17,7 @@
 |-|
 |Exercice 68 page 294||
 |Exercice 69 page 294||
-|Exercice 70 page 294||
+|Exercice 70 page 294|yaëlle|
 |Exercice 71 page 294||
 |sujet B page 301||
 |Exercice 81 page 302||
