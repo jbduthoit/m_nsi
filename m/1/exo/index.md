@@ -15,7 +15,7 @@
 
 |Exercices|lien|
 |-|
-|Exercice 68 page 294||
+|Exercice 68 page 294|[68](68.jpg), [68](68_2.jpg)|
 |Exercice 69 page 294||
 |Exercice 70 page 294|yaëlle|
 |Exercice 71 page 294||
