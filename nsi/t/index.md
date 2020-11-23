@@ -18,3 +18,6 @@
 ## Les dictionnaires (rappels de première)
 - [Le cours et les exos](nsi_t_ch8.pdf)
 - [le fichier titanic pour le dernier exercice](titanic.csv)
+
+# Les arbres 
+- [le cours et les exos](nsi_t_ch9.pdf)
