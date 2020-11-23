@@ -5,7 +5,7 @@
 |Exercices|lien|
 |-|
 |Exercice 57 et 58 page 303||
-|Exercice 85 page 303||
+|Exercice 85 page 303|[1](85.JPG),[2](85_2.JPG)|
 |Exercice 85 page 303||
 |Exercice 63 page 293||
 
