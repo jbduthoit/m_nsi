@@ -14,7 +14,7 @@
 
 ## Algorithme de recherche d'une occurrence dans un tableau 
 
-- [le cours et les exercices](nsi-1-ch4.pdf)
+- [le cours et les exercices](nsi_1_ch4.pdf)
 
 
 ## Quelques vidéos :-)!
