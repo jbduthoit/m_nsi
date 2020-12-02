@@ -11,3 +11,8 @@
 - [se tester avec un petit QCM](https://doctools.dgpad.net/exam.php?datas=eyJiYXNlaWQiOiIxWHhYckM2cFFlZzlWdzNVa1I1NzJFTFY0VUV1Y3Q5Q0pkQkJFNGhQX3NubyIsImRlX2Jhc2UiOiIxNWtnV0tfQmNXenhnSER5NjlrVDUyc0ZacmpUSmNsSDg2V19kMWFhNERxTSIsImlkIjoiMUhYQzk0MlJtb0FqdEgxR3hQaWlndldJb1VnU3Bzc1dGVHNiU2hWVjhKQ2MiLCJ1c2VycyI6IkFub255bWUifQ==)
 
 - [refaire l'interrogation de la semaine dernière , sur QCM](https://doctools.dgpad.net/exam.php?datas=eyJiYXNlaWQiOiIxWHhYckM2cFFlZzlWdzNVa1I1NzJFTFY0VUV1Y3Q5Q0pkQkJFNGhQX3NubyIsImRlX2Jhc2UiOiIxNWtnV0tfQmNXenhnSER5NjlrVDUyc0ZacmpUSmNsSDg2V19kMWFhNERxTSIsImlkIjoiMWRmNlprS2I4YlNidVlmNTVOaG1EOUNXYTlMdklOOGNhbFZ5bEdKMm02dm8iLCJ1c2VycyI6IkFub255bWUifQ==)
+
+
+\\ Arithmétique
+
+- [Le cours](m_2_ch4.pdf)
