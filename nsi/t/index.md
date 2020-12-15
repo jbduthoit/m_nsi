@@ -21,3 +21,6 @@
 
 # Les arbres 
 - [le cours et les exos](nsi_t_ch9.pdf)
+
+# Le routage 
+- [le cours et les exos](nsi_t_ch10.pdf)
