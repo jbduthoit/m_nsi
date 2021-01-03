@@ -19,3 +19,8 @@
 
 
 ## [Quelques exos python pour s'entraîner au ds !](m_2_python.pdf)
+
+
+## Variations de fonctions, Extremas et fonctions de réference
+
+- [Le cours](m_2_ch5.pdf)
