@@ -20,3 +20,6 @@
 
 ## Partie 2 du second degré
 - [le cours et les savoir-faire](m_1_ch5.pdf)
+
+## Les fonctions dérivées
+- [le cours et les savoir-faire](m_1_ch6.pdf)
