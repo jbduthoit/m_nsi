@@ -4,6 +4,7 @@
 - [Les algorithmes de recherches séquentielles](nsi_t_rech_o.pdf)
 - [Le tri selection](nsi_t_tri_s.pdf)
 - [Le tri insertion](nsi_t_tri_i.pdf)
+- [La recherche dichotomique](nsi_t_rech_d.pdf)
 
 ## Les bases de données
 
