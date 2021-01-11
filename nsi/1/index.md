@@ -17,7 +17,7 @@
 
 ## Architecture matérielle
 
-- [Le cours] (nsi_1_ch5.pdf)
+- [Le cours](nsi_1_ch5.pdf)
 
 ## Quelques vidéos :-)!
 - [vidéo youtube](https://youtube.com/channel/UCO0N4ExyrTAh4UdC14CZ5hQ)
