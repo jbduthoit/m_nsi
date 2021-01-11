@@ -6,6 +6,7 @@
 - [Le tri insertion](nsi_t_tri_i.pdf)
 - [La recherche dichotomique](nsi_t_rech_d.pdf)
 - [Le tri fusion](nsi_t_tri_f.pdf)
+- [KNN](nsi_t_ep_knn.pdf)
 
 ## Les bases de données
 
