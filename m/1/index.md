@@ -22,4 +22,5 @@
 - [le cours et les savoir-faire](m_1_ch5.pdf)
 
 ## Les fonctions dérivées
+- [carte mentale](maths_1_cm_fonctions_derivees)
 - [le cours et les savoir-faire](m_1_ch6.pdf)
