@@ -35,3 +35,6 @@
 
 # Diviser pour régner
 - [le cours et les exos](nsi_t_ch11.pdf)
+
+# Les SoCs
+-[Le cours](nsi_t_ch12.pdf)
