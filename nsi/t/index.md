@@ -1,5 +1,10 @@
 # Spécialité NSI en terminale
 
+# sujets
+
+- [Sujet zéro](sujet0.pdf)
+
+
 ## Réussir l'épreuve pratique
 - [Les algorithmes de recherches séquentielles](nsi_t_rech_o.pdf)
 - [Le tri selection](nsi_t_tri_s.pdf)
