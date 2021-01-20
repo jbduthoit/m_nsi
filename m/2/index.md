@@ -26,3 +26,8 @@
 
 ## Fonctions de référence
 - [Le cours et les savoir-faire](m_2_ch6.pdf)
+
+
+## Probabilités
+- [Le cours et les savoir-faire](m_2_ch7.pdf)
+
