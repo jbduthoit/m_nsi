@@ -35,8 +35,8 @@
 # Les arbres 
 - [le cours et les exos](nsi_t_ch9.pdf)
 
-#Les processus
--[le cours] (nsi_t_ch13.pdf)
+# Les processus
+-[le cours](nsi_t_ch13.pdf)
 
 # Le routage 
 - [le cours et les exos](nsi_t_ch10.pdf)
