@@ -24,3 +24,7 @@
 ## Les fonctions dérivées
 - [carte mentale](maths_1_cm_fonctions_derivees)
 - [le cours et les savoir-faire](m_1_ch6.pdf)
+
+
+## Les suites numériques
+- [Le cours, les savoir-faire et les exos d'entraînement !](m_1_ch7.pdf)
