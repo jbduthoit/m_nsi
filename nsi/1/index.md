@@ -23,3 +23,7 @@
 ## Quelques vidéos :-)!
 - [vidéo youtube](https://youtube.com/channel/UCO0N4ExyrTAh4UdC14CZ5hQ)
 
+
+## Liste par compréhension 
+- [Les exos](nsi_ch6.pdf)
+
