@@ -25,5 +25,5 @@
 
 
 ## Liste par compréhension 
-- [Les exos](nsi_ch6.pdf)
+- [Les exos](nsi_1_ch6.pdf)
 
