@@ -46,3 +46,6 @@
 
 # Les SoCs
 -[Le cours](nsi_t_ch12.pdf)
+
+# Les graphes
+-[le cours](nsi_t_ch14.pdf)
