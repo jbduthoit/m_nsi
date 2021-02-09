@@ -28,3 +28,6 @@
 ## Liste par compréhension 
 - [Les exos](nsi_1_ch6.pdf)
 
+## HTML et CSS
+- [le cours](nsi_1_ch7.pdf)
+
