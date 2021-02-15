@@ -13,6 +13,10 @@
 - [Le tri fusion](nsi_t_tri_f.pdf)
 - [KNN](nsi_t_ep_knn.pdf)
 
+
+## Les projets
+-[Le morpion](projet_morpion.pdf)
+
 ## Les bases de données
 
 ## Langage SQL
