@@ -53,3 +53,7 @@
 
 # Les graphes
 -[le cours](nsi_t_ch14.pdf)
+
+
+# Sécurisation
+-[Le cours !](nsi_t_secu.pdf)
