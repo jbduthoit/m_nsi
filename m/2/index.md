@@ -32,6 +32,16 @@
 - [Le cours et les savoir-faire](m_2_ch7.pdf)
 
 
+
+|**Fonctions affines et tableaux de signes**||||
+|:----------------:|:---------------:|:----------:|:-----|
+||*Définition et représentation graphique*|[Le cours et les exos](m_2_fonctions_affines_1.pdf)||
+||*Etude des variations et du signe*|[Le cours et les exos](m_2_fonctions_affines_2.pdf)||
+||*Tableaux de signes et Inéquations*|[Le cours et les exos](m_2_fonctions_affines_3.pdf)||
+
+
+
+
 ## Fonctions affines & tableaux de signe
 
 - [Le cours](m_2_ch8.pdf)
