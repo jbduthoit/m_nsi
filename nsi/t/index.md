@@ -61,6 +61,6 @@
 
 
 |*Sécurisation des communications*| |
-| |:---------------:|
-| |[Cryptographie asymétrique](nsi_t_14_3.pdf)|
-||[Authentification des participants](nsi_t_14_4.pdf)|
+|z |:---------------:|:----------:|
+| z|[Cryptographie asymétrique](nsi_t_14_3.pdf)|
+|z|[Authentification des participants](nsi_t_14_4.pdf)|
