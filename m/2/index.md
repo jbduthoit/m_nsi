@@ -35,7 +35,7 @@
 
 |**Fonctions affines et tableaux de signes**||||
 |:----------------:|:---------------:|:----------:|:-----|
-||*Définition et représentation graphique*|[Le cours et les exos](m_2_fonctions_affines_1.pdf)||
+||*Définition et représentation graphique*|[Le cours et les exos](m_2_fonctions_affines_1.pdf)|[s'entraîner sur les représentations graphiques](https://doctools.dgpad.net/exam.php?datas=eyJiYXNlaWQiOiIxWHhYckM2cFFlZzlWdzNVa1I1NzJFTFY0VUV1Y3Q5Q0pkQkJFNGhQX3NubyIsImRlX2Jhc2UiOiIxNWtnV0tfQmNXenhnSER5NjlrVDUyc0ZacmpUSmNsSDg2V19kMWFhNERxTSIsImlkIjoiMThZUlpqWVU0VU1zVWl6UmZUUjVHVzhQeUlINW0zVDNLSXMyOGItMDg1aGciLCJ1c2VycyI6IkFub255bWUifQ==)|
 ||*Etude des variations et du signe*|[Le cours et les exos](m_2_fonctions_affines_2.pdf)||
 ||*Tableaux de signes et Inéquations*|[Le cours et les exos](m_2_fonctions_affines_3.pdf)||
 
