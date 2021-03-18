@@ -31,3 +31,8 @@
 ## HTML et CSS
 - [le cours](nsi_1_ch7.pdf)
 
+
+|**Système d'exploitation**||||
+|:----------------:|:---------------:|:----------:|:-----|
+||*Système d'exploitation Linux*|[Le cours et les exos](nsi_1_linux_1.pdf)||
+||*Ligne de commande*|[Le cours et les exos](nsi_1_linux_2.pdf)|[Apprendre les lignes de commandes par un jeu](http://luffah.xyz/bidules/Terminus/)|
