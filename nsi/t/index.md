@@ -58,6 +58,6 @@
 # Sécurisation
 -[Le cours !](nsi_t_secu.pdf)
 
-|Cryptographie asymétrique|
----------------------------
-|Authentification des participants |
+
+|[Cryptographie asymétrique](nsi_t_14_3.pdf)|
+|[Authentification des participants](nsi_t_14_4.pdf)|
