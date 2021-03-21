@@ -41,10 +41,5 @@
 
 
 
-
-## Fonctions affines & tableaux de signe
-
-- [Le cours](m_2_ch8.pdf)
-
 # Perseverance
 - [L'activité !](m_2_nasa.pdf)
