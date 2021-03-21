@@ -67,4 +67,4 @@
 ||*Cryptographie asymétrique*|[Le cours et les exos](nsi_t_securisation_3.pdf)||
 ||*Authentification des participants*|[Le cours et les exos](nsi_t_securisation_4.pdf)||
 ||*Le protocole HTTPS*|[Le cours et les exos](nsi_t_securisation_5.pdf)||
-|||[kid_rsa}(https://www.cs.uri.edu/cryptography/publickeykidkrypto.htm)|
+|||[kid_rsa](https://www.cs.uri.edu/cryptography/publickeykidkrypto.htm)|
