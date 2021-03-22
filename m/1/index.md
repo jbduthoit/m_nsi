@@ -33,4 +33,8 @@
 |**Trigonométrie**||||
 |:----------------:|:---------------:|:----------:|:-----|
 ||*Cercle trigonométrique et radian*|[Le cours et les exos](m_1_trigo_1.pdf)||
+||*Repérage sur le cercle trigo*|[Le cours et les exos](m_1_trigo_2.pdf)||
+||*Cosinus et sinus*|[Le cours et les exos](m_1_trigo_3.pdf)||
+||*Equations trigonométrique*|[Le cours et les exos](m_1_trigo_4.pdf)||
+
 
