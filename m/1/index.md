@@ -28,3 +28,9 @@
 
 ## Les suites numériques
 - [Le cours, les savoir-faire et les exos d'entraînement !](m_1_ch7.pdf)
+
+
+|**Trigonométrie**||||
+|:----------------:|:---------------:|:----------:|:-----|
+||*Cercle trigonométrique et radian*|[Le cours et les exos](m_1_trigo_1.pdf)||
+
