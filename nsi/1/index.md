@@ -21,11 +21,10 @@
 ||*[le cours](nsi_1_ch7.pdf)*|||
 ||||**[Les projets](projets/index.html)**|
 |**Système d'exploitation**||||
-||*Système d'exploitation Linux: définition *|[Le cours et les exos](nsi_1_linux_1.pdf)||
+||*Système d'exploitation Linux: définition*|[Le cours et les exos](nsi_1_linux_1.pdf)||
 ||*Ligne de commande*|[Le cours et les exos](nsi_1_linux_2.pdf)|[Apprendre les lignes de commandes par un jeu](http://luffah.xyz/bidules/Terminus/)|
 
 
-## Les projets !
 
 
 ## Quelques vidéos :-)!
