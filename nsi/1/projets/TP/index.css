@@ -1,0 +1,17 @@
+h1{
+	text-align:center;
+	font-weight: bold;
+	color:rgb(121, 28, 248);
+}
+
+h2{
+	color : rgb(237, 0, 0);
+}
+
+li{
+	color : rgb(255, 73, 1);
+}
+
+body{
+	background-color : rgb(255, 255, 107);	
+}

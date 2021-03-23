@@ -1,0 +1,53 @@
+/* Page de style */
+ 
+html{ 
+	background:rgb(217, 217, 217);
+}
+
+header{
+    height: 250px; /* hauteur du header à changer en fonction de la photo choisi */
+    background-image: url('images/tournesol.jpg');
+	background-repeat:no-repeat;
+	background-position:center center;
+	text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+body{
+    width: 70%;
+    margin: 0 auto;
+	text-align: left;
+	border: white thick;
+	font-family : serif;
+}
+
+h1{
+    font-size: 2rem; 
+	font-variant: small-caps;
+	color: rgb(51, 26, 0);
+}
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+	background-color : rgb(38, 77, 115);
+	border: white double thick;
+	color: rgb(255, 219, 77);
+	font-variant: small-caps;
+}
+
+p#eleve{
+    font-size: 1.5rem;
+}
+
+footer{
+    text-align:center;
+    margin: 0 auto;
+}
+
+.def{
+	border: rgb(51, 26, 0) solid thin;
+	background : rgb(245, 245, 239);
+}
+
+

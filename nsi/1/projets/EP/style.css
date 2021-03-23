@@ -1,0 +1,60 @@
+/* Page de style */
+ 
+html{ 
+    font-size: 20px;
+	background-color:#D1D1D1;
+	line-height: 2em;
+
+}
+
+header{
+
+    height: 250px; /* hauteur du header à changer en fonction de la photo choisi */
+    background-image: url('images/banniere.png');
+	text-align:center;
+    color: #1D04F1;
+    
+
+}
+
+body{
+    width: 70%;
+    margin: 0 auto; 
+	vertical-align: middle;
+
+}
+h1{
+    font-size: 3rem;
+	
+}
+.titre {
+
+	transform: translateY(225%);
+}
+
+h2{
+    font-size: 1.5rem;
+    text-align:center;
+	color : #2D7CCB;
+}
+h3{
+	font-size: 1.25rem;
+	text-decoration: underline;
+	color : #2D7CCB;
+}
+p{
+	text-align:center;
+}
+p#eleve{
+    font-size: 1.5rem;
+	color: cyan;
+}
+a{
+	color: purple;
+}
+ul {
+	line-height : 2.5em;
+}
+
+
+

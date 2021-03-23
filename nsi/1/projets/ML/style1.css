@@ -1,0 +1,44 @@
+/* Page de style */
+ 
+html{ 
+    font-size: 20px; 
+}
+
+header
+{
+    height: 300px ; /* hauteur du header à changer en fonction de la photo choisi */
+	width : auto ;
+    background-image: url('images/photoheader.jpg');
+	background-position : center ;
+    text-align:center;
+    color: white;
+    font-weight: bold;
+	margin : auto ;
+}
+
+body
+{
+    width: 70%;
+    margin: 0 auto; 
+	background-image : radial-gradient(rgb(199, 201, 226), rgb(16, 77, 208));
+}
+h1{
+    font-size: 2.5rem;
+	text-align: center; 
+}
+h2{
+    font-size: 2rem;
+    text-align: center;
+}
+h3{
+	font-size: 1.5rem ;
+	text-align: center;
+}
+p#eleve{
+    font-size: 1.5rem;
+}
+footer{
+    text-align:center;
+    margin: 3rem;
+}
+img { border : 3px solid }

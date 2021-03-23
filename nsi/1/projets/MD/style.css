@@ -1,0 +1,34 @@
+/* Page de style */
+ 
+html{ 
+    font-size: 20px; 
+}
+
+header
+{
+    height: 250px; /* hauteur du header à changer en fonction de la photo choisi */
+    background-image: url('images/iPhone.jpeg');
+    text-align:center;
+    color:black;
+    font-weight: bold;
+}
+
+body{
+    width: 70%;
+    margin: 0 auto; 
+}
+h1{
+    font-size: 2rem; 
+}
+h2{
+    font-size: 1.5rem;
+    text-align:center;
+}
+p#eleve{
+    font-size: 1.5rem;
+}
+footer{
+    text-align:center;
+    margin: 2rem;
+}
+

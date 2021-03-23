@@ -1,0 +1,18 @@
+﻿
+Notez dans ce bloc notes vos sujets...Une fois le sujet pris par un élève, il faut en choisir un autre !!
+
+
+
+Nom et prenom | sujet lié à l'histoire de l'informatique
+
+Lamblin Victor | L'histoire de l'intelligence artificielle
+Martinolli Alexandre | L'histoire de python (créateur : Guido van Rossum)
+Petain Ethan | L'histoire de la cybersécurité
+pad raphael | Le langauge java script(Brendan Eich)
+Lamballais Yaelle | l'histoire du CSS 
+Lardeur Mathis | Le créateur de microsoft (ce qu'il a apporté et réussi à créer)
+Axel Halliez | les débuts de images de synthèse 
+Hubert Matthieu | histoire de Alan Turing
+Meurant Victor | l'invention de Linux
+KUSPER Jérémy | L'histoire du WEB
+Guilbaud Marceau | L'histoire de Windows

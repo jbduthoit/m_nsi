@@ -1,0 +1,129 @@
+/* Page de style */
+ 
+html{ 
+    font-size: 17px; 
+	font-family: sans-serif;
+}
+
+header
+{
+    height: 150px; /* hauteur du header à changer en fonction de la photo choisi */
+    text-align:center;
+    color: white;
+    font-weight: bold;
+	background-color: #222
+}
+
+body{
+    width: 70%;
+    margin: 0 auto; 
+	background-image: url('images/background.jpg');
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+}
+h1{
+    font-size: 2rem; 
+	grid-column:span 3;
+	background: black
+}
+h2{
+    font-size: 1.5rem;
+    text-align:center;
+}
+
+footer{
+    text-align:center;
+	height: 150px;
+	background-color: #222;
+	font-weight: bold;
+}
+
+#carte{
+	width:801px;
+	margin: 0 auto;
+	background-color: white;
+	text-align: left;
+	align-content: center;
+}
+section{
+	margin: 0 40px
+}
+
+.gridheader > h1{
+	background-color:  #126D82;
+	color: white;
+	text-align: center;
+	grid-column: span 3;
+	grid-row: 1/1;
+	padding:12px;
+	margin:0;
+}
+
+.gridheader {
+	padding:12px;
+	margin: 10px;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 60px 50px;
+	gap:10px 2px
+}
+.gridheader > p{
+	background-color: #126D82;
+	color: white;
+	text-align: center;
+	grid-row: 2/2;
+	padding:12px;
+	margin:0;
+}
+p> a{
+	color : white;
+	text-decoration: none;
+}
+li{
+	text-align : left;
+	margin-left: 10%;
+}
+
+h3{
+	text-align: left;
+	margin-left:10%;
+	color : #024746;
+	text-decoration: underline;
+}
+
+.gridfooter {
+	padding:12px;
+	margin: 10px;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 60px 50px;
+	gap:10px 2px
+}
+
+.gridfooter > p{
+	background-color: #126D82;
+	color: white;
+	text-align: center;
+	grid-row: 1/1;
+	padding:18px;
+	margin:0;
+}
+
+.gridfooter > h4{
+	background-color: #126D82;
+	color: white;
+	text-align: center;
+	grid-row: 2/2;
+	grid-column: span 3;
+	padding:15px;
+	margin:0;
+}
+h4 > a {
+	color : white;
+	text-decoration: none;
+}
+
+img{
+	display: block;
+	margin: auto;
+}

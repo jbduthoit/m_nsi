@@ -1,0 +1,44 @@
+/* Page de style */
+ 
+html{ 
+    font-size: 20px; 
+}
+
+header
+{
+    height: 250px; /* hauteur du header à changer en fonction de la photo choisie */
+    background-image: url('images/microprocesseur.jpg');
+    text-align:center;
+    color: white;
+    font-weight: bold;
+}
+
+body{
+    width: 70%;
+    margin: 0 auto; 
+	background-color: pink;
+}
+h1{
+    font-size: 2rem;
+	text-align: center;
+}
+h2{
+    font-size: 1.5rem;
+    text-align:center;
+	color: red;
+}
+h4{
+	text-align:center;
+}
+image{
+	text-align: center;
+	margin: auto;
+}
+p#eleve{
+    font-size: 1.5rem;
+}
+footer{
+    
+    margin: 2rem;
+}
+

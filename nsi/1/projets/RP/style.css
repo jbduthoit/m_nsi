@@ -1,0 +1,218 @@
+/* Page de style */
+ 
+body {
+background-image:url(images/th.png);
+margin: 0;
+
+
+}
+.body1 {
+background-image:url(images/th.png);
+margin: 0;
+background-color: black;
+}
+
+#banner1{
+	display: block;
+	background-color: #228B22;
+	height: 50px;
+	width: 100%;	
+}
+
+#banner4{
+	display: block;
+	background-color: #228B22;
+	height: 50px;
+	width: 100%;
+}
+.jsp{
+	color:yellow;
+	font-size:1rem;
+	margin:0px 40px 30px;
+}
+
+
+header
+{
+    height: 270px; /* hauteur du header à changer en fonction de la photo choisi */
+    background-image: url('images/oxygen-nature-header.jpg');
+    color: white;
+    font-weight: bold
+}
+
+
+h1
+{
+color: black;
+text-align: center;
+font-size: 3rem;
+font-family: Impact,fantasy
+
+}
+
+h2
+{
+	color : black;
+	font-size: 2.5rem;
+	font-family: Jazz LET,fantasy;
+	text-decoration: underline;
+}
+
+h3
+{
+font-size: 2.5rem;
+font-family: Jazz LET,fantasy;
+color:black;
+text-decoration: underline;
+}
+
+h6
+{
+	color: yellow;
+	background-color:black ;
+	font-size:45px;
+	text-decoration: underline;
+	margin:0px 50px 20px;
+
+}
+li{
+	font-size: 25px;
+	color: green;
+}
+
+.vert
+{
+color : green; 
+font-size: 25px;
+	
+}
+
+a
+{
+color : black;
+font-size: 23px;
+text-decoration: none;
+font-family: verdana
+}
+
+
+
+
+#footer{
+	padding-top: 0;
+	text-align:center;
+	display:block;
+	background-color: #228B22;
+	height: 50px;
+	justify-content: space-around;
+}
+#footer p{
+	color:#164a29;
+	font-weight: bold;
+	position: relative;
+	top: 5px;
+}
+.main-head{
+	background:yellow;
+	color: #ffffff;
+}
+
+nav{
+	min-height: 10vh;
+	display:flex;
+	align-items: center;
+	width:90%;
+	margin:auto;
+	padding:2rem;
+}
+nav ul{
+	flex: 1 1 40rem;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+}
+#logo{
+	flex: 2 1 40rem;
+}
+.index{
+	color: yellow;
+	margin: 15px 100px 100px;
+}
+
+ .footer-basic {
+  padding:40px 0;
+  background-color:yellow;
+  color:yellow;
+}
+.footer-basic1{
+  padding:40px 0;
+  background-color:green;
+  color:green;
+}
+
+.footer-basic1 ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic1 li {
+  padding:0 10px;
+}
+
+.footer-basic1 ul a {
+  color:black;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic1 ul a:hover {
+  opacity:1;
+}
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:black;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.list-inline-item{
+	color: black
+}
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:black;
+  margin-bottom:0;
+}
+.footer-basic1.copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:black;
+  margin-bottom:0;
+}
+.bonjour{
+	font-size:2.5rem;
+	text-decoration: underline;
+}

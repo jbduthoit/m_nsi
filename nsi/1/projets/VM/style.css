@@ -1,0 +1,46 @@
+/* Page de style */
+ 
+html{ 
+    font-size: 25px; 
+}
+
+header
+{
+    height: 420px; /* hauteur du header à changer en fonction de la photo choisi */
+    background-image: url('images/logo-linux.png');
+	background-repeat:no-repeat;
+    text-align:center;
+    color: white;
+    font-weight: bold;
+}
+
+body{
+	
+	
+	background-image: url("images/wallpaper2.png");
+	background-repeat: no-repeat;
+	background-size: 4300px;
+	color: white;
+    width: 80%;
+    margin: 0 auto; 
+}
+h1{
+    font-size: 2rem; 
+}
+h2{
+    font-size: 1.5rem;
+    text-align:center;
+}
+h3{
+	font-size : 1.25rem;
+	text-align:center;
+}
+p#eleve{
+    font-size: 1.5rem;
+}
+footer{
+	background-color:#3189CB;
+    text-align:center;
+    margin: 2rem;
+}
+

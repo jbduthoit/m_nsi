@@ -1,0 +1,43 @@
+html{ 
+    font-size: 25px; 
+}
+
+header
+{
+    height: 200px; /* hauteur du header à changer en fonction de la photo choisi */
+    text-align:center;
+    color: white;
+    font-weight: bold;
+}
+
+body{
+	
+	background-image: url("images/wallpapaer_cv_1.jpg");
+	background-size: 100vw;
+	background-repeat: no-repeat;
+	color:white;
+    width: 80%;
+    margin: 0 auto; 
+}
+h1{
+    font-size: 2rem; 
+}
+h2{
+    font-size: 1.5rem;
+}
+p#eleve{
+    font-size: 1.5rem;
+}
+footer{
+	background-color:#51514E;
+    text-align:center;
+    margin: 2rem;
+}
+linear-gradient {
+  background: linear-gradient(blue, white);
+}
+
+div {
+  width: 120px;
+  height: 120px;
+}
