@@ -1,0 +1,80 @@
+html {
+  text-align: center;
+}
+
+header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif, "Lucida Sans Regular";
+  font-style: italic;
+  background-color: #b2bec3;
+  margin: -8px;
+  font-size: 4em;
+ 
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif, "Lucida Sans Regular";
+  font-style: italic;
+  text-decoration: underline;    
+}
+
+p {
+  font-family: "Lucida Grande", Geneva, Verdana, sans-serif;
+  font-style: normal;
+}
+
+section {
+	margin-left: 150px;
+	margin-right: 150px;
+	background-color: #c9daf4; 
+	border-radius: 20px;
+}
+
+ul {
+  font-family: "Lucida Grande", Geneva, Verdana, sans-serif;
+  font-style: normal;
+}
+
+footer {
+	bottom: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, "Lucida Sans Regular";
+  font-style: italic;
+  background-color: #b2bec3;
+  margin: -8px;
+  margin-top: 10px;
+  font-size: 1em;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: red;
+}
+
+.police_source {
+  font-family: "Lucida Grande", Geneva, Verdana, sans-serif;
+  font-style: normal;
+}
+.color_cv {
+  background-color: #dfe6e9;
+}
+
+.color_index {
+	background-color: #0984e3;
+}
+
+.no_underline {
+  text-decoration: none;
+}
+
+.image_cv {
+  width: 341px;
+  height: 351px;
+  border-radius: 200px;
+}
+
+.image_index {
+	width: 400px;
+	height: 400px;
+}

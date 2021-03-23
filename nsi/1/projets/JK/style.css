@@ -1,0 +1,166 @@
+/* Page de style */
+ 
+html{ 
+    font-size: 20px; 
+	color:black;
+	
+}
+.italic{
+	font-style:italic;
+}
+.lien_footer{
+	color:white;
+}
+.bold{
+	font-weight:bold;
+}
+.center{
+	text-align:center;
+}
+h2{
+	text-decoration:underline;
+}
+.lien_sommaire{
+	color:black;
+	text-decoration:none;
+	font-weight:bold;
+}
+body{
+	margin:0;
+	font-family:'arial';
+
+}
+header
+{
+    height: 250px; 
+    background-image: url('images/essai.png');
+    text-align:center;
+    color: white;
+    font-weight: bold;
+}
+h2,p,ul,li{
+	width:50%;
+	text-align:justify;
+	padding:15px;
+	margin:auto;
+}
+
+.h2_photo{
+	padding-top:80px;	
+}
+.sommaire{
+	width:50%;
+	border:2px solid black;
+	border-radius:10px;
+	margin:auto;
+}
+footer{
+	
+    text-align:center;
+	background-color:black;
+	color:white;
+	width:100%;
+}
+.footer_source{
+	bottom:0;
+	position:absolute;
+}
+
+.cv_page{
+	background-image: url("images/mars_planet_back.png")
+}
+.align_img_class{ 
+	width:50%;
+	/* border:1px solid black; */
+	padding:15px;
+	margin:auto;
+}
+.img_a{
+	width:176px;
+	height:88px;
+	background-image: url("images/A350.png");
+	padding:12px;
+	float:left;
+}
+.img_f{
+	width:176px;
+	height:88px;
+	background-image: url("images/perseverance.png");
+	padding:12px;
+	float:right;
+}
+.img_v{
+	width:176px;
+	height:88px;
+	background-image: url("images/vtt.png");
+	float:right;
+	padding:12px;
+}
+.img_r{
+	width:176px;
+	height:88px;
+	background-image: url("images/route.png");
+	float:left;
+	padding:12px;
+	
+}
+.img_pdp{
+	height:128px;
+	width:128px;
+	background-image: url("images/insignebataillond_explorationsnk.png");
+	padding:12px;
+	float:left;
+}
+.img_background{
+	height: 300px;
+    background-image: url('images/mars.png');
+    text-align:center;
+    color: white;
+    font-weight: bold;
+}
+.img_background_index{
+	height:270px;
+	width:100%;
+    background-image: url('images/banniere_nav.png');
+    text-align:center;
+    color: black;
+    font-weight: bold;
+	padding-top:0px;
+	margin:auto;
+}
+.img_frise{
+	width:1278px;
+	height:758px;
+	background-image: url('images/Frise.png');
+	border:2px solid black;
+	border-radius:10px;
+}
+.img_txt_r{
+	border:2px solid black;
+	border-radius:10px;
+	float:right;
+	margin:0 0 0.5em 0.5em;
+}
+.img_txt_l{
+	border:2px solid black;
+	border-radius:10px;
+	float:left;
+	margin:0 0 0.5em 0.5em;
+	
+}
+.interligne{
+	padding-top:50px;
+}
+.img_attention{
+	float:left;
+	margin:0 0 0.5em 0.5em;
+}
+.background_source{
+	width:100%;
+	height:300px;
+	background-image: url('images/binaire.png');
+	text-align:center;
+	color:white;
+	font-weight: bold;
+	
+}

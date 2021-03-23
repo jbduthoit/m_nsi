@@ -1,0 +1,443 @@
+body{
+	background-image: url("image/fond page.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family : "Comic sans ms" ;
+	
+}
+
+
+
+
+/* Style : Menu */
+
+
+
+
+	.cote_menu
+	{
+		vertical-align : text-top ;
+		text-align : left ;
+		font-size : 20px ;
+		color : white ;
+		min-width : 240px ;
+		width : 280px ;
+		
+		background-color: #3e3c3c;
+	}
+
+
+
+
+
+
+
+	.titre_logo
+		{
+			font-size : 30px ;
+		}
+
+
+	.logo_titre
+	{
+		vertical-align:middle;
+		width :100px ;
+		height : 100px ;
+	}
+	.logo_titre2
+	{
+		vertical-align:middle;
+		width :60px ;
+		height : 60px ;
+	}
+
+
+	.trait
+	{
+	background-color: #a29a98;
+	height: 3pt;
+	width: 100%;
+	}
+
+	.menu
+	{
+		text-align : left ;
+		font-size : 25px ;
+		color : white ;
+		list-style: none;
+	}
+
+
+
+
+
+
+/* Page : CV */
+
+
+
+
+
+	.page_cv
+	{
+	  display:grid;
+	  margin:auto;
+	  background : white ;
+	  width : auto ;
+	  text-align : left ;
+	  justify-content: center ;
+	  align-items : center ;
+	  margin-left : 80px ;
+	  margin-right : 80px ;
+	  padding-left : 10px ;
+	}
+
+
+.image_presentation_cv
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto ;
+	height :300px ;
+	width :1000px ;
+}
+
+
+
+	.Nomprenom
+	{
+	color : blue ;
+	text-align : center ;
+	font-size : 60px ;
+	}
+
+	.image_moi {
+		display: block;
+		margin-left: auto;
+		margin-right: auto ;
+		height :500px ;
+		width : 300px ;
+	}
+
+	.sommaire_titre
+	{
+		color : #ff4900 ;
+		font-size : 50px ; 
+		text-align : center ; 
+	}
+
+	.sommaire
+	{
+		color : #ff5900 ;
+		font-size : 30px ; 
+	}
+
+
+	.Title
+	{
+	color : red ;
+	text-align : center ;
+	}
+
+	.speP
+	{
+	color : #0c25f9 ; 
+	}
+
+	.genech
+	{
+		color : green
+	}
+
+	.speT
+	{
+	color : #0c25f9 ; 
+	}
+
+	.projet
+	{
+		color : #001fff
+	}
+
+	.spePP
+	{
+	color : #0c25f9 ; 
+	}
+
+
+	.ref_versions
+	{
+		text-align: center ;
+		font-size : small ;
+		color : red ;
+	}
+
+	.mail
+	{
+	text-align: center ;
+	font-size : small ;
+	}
+
+	.copyright
+	{
+	text-align: center ;
+	font-size : small ;
+	}
+
+
+
+
+
+
+
+
+
+
+
+/* Page : Ajout des versions du site */
+
+
+
+
+.mise_à_jour
+{
+	width : 1000px;
+	height : 250px ;
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+	.version
+	{
+		color : red ;
+		font-size : 30px ; 
+	}
+
+	.détail_version
+	{
+		color : blue ;
+		font-size : 20px ; 
+	}
+
+.page_ajout_versions
+{
+	display:grid;
+	  margin:auto;
+	  background : white ;
+	  width : auto ;
+	  text-align : left ;
+	  justify-content: center ;
+	  align-items : center ;
+	  margin-left : 80px ;
+	  margin-right : 80px ;
+}
+
+
+
+
+
+
+
+
+.sujet_processeurs
+{
+	text-align : center ;
+	font-size : 40px ;
+}
+
+
+
+/* Page : Histoire */
+
+.histoire_processeur
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.lien_processeur
+{
+	text-align : center ;
+	
+}
+
+	/* Histoire : Les processeurs */
+
+
+.marque
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto ;
+	width : 1000px; 
+	height : 300px ;
+}
+
+
+
+
+
+.Title_processeur
+{
+	text-align : center ;
+	color : red ;
+	font-size : 30px ;
+	
+}
+
+.Table_matiere_entieres
+{
+	color : #4c3efb ;
+}
+
+.Table_matiere_entieres2
+{
+	color : #4c3efb ;
+	color : #3e71fb ;
+}
+
+.table_des_matiéres_processeurs_principaux
+{
+	list-style-type: none ;
+	font-size : 25px ;
+	
+
+	border-width:3px;
+	border-style:double;
+	border-color:black;
+	width : 500px ;
+	padding-top : 10px ;
+	padding-bottom : 10px ;
+}
+	
+
+
+.table_des_matiéres_processeurs_sous_titre
+{
+	list-style-type: none ;
+	font-size : 22px ;
+	padding-left : 25px ;
+}
+
+.texte_centrer_processeur
+{
+	text-align : center ;
+}
+	
+.image_tableau_droite
+{
+	eight : 170px ;
+	width : 600px ;
+	display: block;
+	margin-left: auto;
+	margin-right: 0px
+}
+.image_tableau_droite2
+{
+	height : 170px ;
+	width : 600px ;
+	display: block;
+	margin-left: auto;
+	margin-right: 0px
+}
+
+
+.description_core_ryzen
+{
+	font-size : 20px ;
+}
+	
+	
+	
+.image_intel_4004 
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+.image_ENIAC
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.list_processeur
+{
+	width: 1050px;
+	height: 500px;
+}
+
+.threadripper_3990X
+{
+	width : 500px;
+	height : 300px;
+}
+/* Page : Mise à jour */
+
+
+
+
+/*Page :  Se connecter */
+
+
+
+
+.int_tableau_co
+{
+	width : 300px ;
+	background-color : white ;
+
+	
+}
+
+.page_connexion
+	{
+	  display:grid;
+	  margin:auto;
+	  background : white ;
+	  width : 300px;
+	  text-align : left ;
+	  justify-content: center ;
+	  align-items : center ;
+	  margin-left : 15px;
+	  margin-right : 15px ;
+	}
+
+.int_tableau_co
+{
+	justify-content : center ;
+}
+
+
+
+/*sources */
+
+.image_presentation_sources
+{
+	isplay: block;
+	margin-left: auto;
+	margin-right: auto ;
+	height : 300px ;
+	width : 1450px ;
+}
+
+
+.liens_colorés
+{
+	color : #4c3efb ;
+}
+
+
+
+
+
+
+
+
+
+
+
+

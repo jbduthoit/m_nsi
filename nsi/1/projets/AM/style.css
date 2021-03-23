@@ -1,0 +1,170 @@
+/* Page de style */
+ 
+html{ 
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+header{
+    height: 300px; /* hauteur du header à changer en fonction de la photo choisi */
+    background-image: url('images/Python-logo.png');
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: center;
+    text-align:center;
+    font-weight: bold;
+}
+
+/* Hyperlink config start */
+a{
+    outline: none;
+}
+
+.c_footer{
+    outline: none;
+    font-size: 1.5rem;
+}
+
+.c_hyperlink_python{
+    outline: none;
+}
+
+a:link {
+    color:darkgreen;
+}
+
+a:visited {
+    color:dodgerblue;
+}
+
+a:focus {
+    background: #BAE498;
+}
+
+a:hover {
+    font-size: 1.5rem;
+    color:firebrick;
+}
+
+.c_footer:hover {
+    font-size: 2rem;
+}
+
+.c_hyperlink_python:hover {
+    font-size: 2.5rem;
+}
+
+a:active {
+    font-size: 2rem;
+    color: gold;
+}
+
+.c_footer:active {
+    font-size: 3rem;
+}
+
+.c_hyperlink_python:active {
+    font-size: 3rem;
+}
+
+a[href*="https"], a[href*="http"] {
+    background: url("images/external_link_icon.png") no-repeat 100% 0;
+    background-size: 14px 14px;
+    padding-right: 17px;
+}
+/* Hyperlink config end */
+
+body {
+    background-color: rgb(80, 80, 80);
+}
+#board
+{
+    width: 70%;
+    margin: auto auto;
+    background-color: white;
+}
+h1{
+    font-size: 2rem; 
+    text-align: center;
+}
+h2{
+    font-size: 1.5rem;
+    text-align:center;
+    border-bottom: 1px solid gray;
+}
+.text_center{
+    text-align:center;
+}
+h3 {
+    margin-left: 10px;
+}
+.cv_img{
+    display: block;
+    margin: auto;
+}
+.c_p_img{
+    display: block;
+    margin-left: 100px;
+}
+.c_p_br_space { /* Fonctionne sur Opera, chrome, safari et firefox, sert a donner un plus grand espace en utilisant <br class="c_p_br_space">*/
+    display: block;
+    content: "";
+    margin-top: 5px;
+}
+
+/* Config table start */
+table{
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-collapse: collapse;
+}
+tbody{
+    display: table-row-group;
+    vertical-align: middle;
+}
+tr{
+    display: table-row;
+    vertical-align: inherit;
+}
+td, th{
+    display: table-cell;
+    padding: 0.2em 0.4em;
+    border: 1px solid gray;
+    text-align: center;
+}
+/*Config table end */
+
+/* List config start */
+ul{
+    margin: auto;
+}
+.c_ul_center{
+    margin-left: 35%;
+}
+.c_ul_sommaire_1{
+    margin-left: 38%;
+}
+.c_ul_sommaire_2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.c_grid{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:20px 20px;
+}
+li{
+    list-style-type: circle;
+}
+/* List config end */
+
+footer{
+    text-align:center;
+    margin: 2rem;
+}
+
