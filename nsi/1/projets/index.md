@@ -1,4 +1,13 @@
 
+## Voici les projets réalisés par les élèves de 1 ère NSI.
+
+L'objectif du travail était de réaliser un mini site, en lien avec l'histoire de l'informatique.
+
+Il fallait construire au minimum 3 pages html : une avec le thème étudié, une autre avec les sources et une dernière, plus personnelle, sur l'élève qui l'a réalisé (identité, intérêt, projet de formation etc...).
+
+Par soucis de confidentialité, cette dernière partie a été supprimée. Ne vous étonnez donc pas si les hyperliens vers cette page provoquent une erreur !
+
+Pour l'essentiel, c'est un très beau travail !
 
 
 |[Alan Turing](MH/index.html)|
