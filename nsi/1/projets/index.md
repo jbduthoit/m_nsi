@@ -4,7 +4,7 @@
 |[Alan Turing](MH/index.html)|
 |[Les malwares sur internet leurs histoires](AB/index.html)|
 |[L'histoire de Python](AM/index.html)|
-|[Les images de synthèse](AXH/index.html]|
+|[Les images de synthèse](AXH/index.html)|
 |[Les processeurs](CB/index.html)|
 |[Les robots militaires](CW/index.html)|
 |[La cybersecurité](EP/index.html)|
