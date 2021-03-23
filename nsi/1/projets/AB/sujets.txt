@@ -1,0 +1,27 @@
+
+Notez dans ce bloc notes vos sujets...Une fois le sujet pris par un élève, il faut en choisir un autre !!
+
+
+
+Nom et prenom | sujet lié à l'histoire de l'informatique
+
+Lamblin Victor | L'histoire de l'intelligence artificielle  PRECISER 
+Martinolli Alexandre | L'histoire de python (créateur : Guido van Rossum)  OK
+Petain Ethan | L'histoire de la cybersécurité  OK
+pad raphael | Le langauge java script(Brendan Eich)  OK
+Lamballais Yaelle | l'histoire du CSS OK
+Lardeur Mathis | Le créateur de microsoft - Bill Gates (ce qu'il a apporté et réussi à créer) OK
+Axel Halliez | les débuts de images de synthèse OK
+Hubert Matthieu | histoire de Alan Turing  OK
+Meurant Victor | l'invention de Linux OK
+KUSPER Jérémy | L'histoire du WEB, la création du WEB OK
+Bridoux Arthur | Qu'est ce qu'un malwares , comment fonctionne-t-il ?  A VERIFIER 
+Veilleroy Romain | les premiers moteurs de recherches OK
+Clotilde Wouters | L'histoire des robots militaires   A VERIFIER
+Cédric Bouchery | l'histoire des processeurs, une amélioration au fur des années. A PRECISER
+Guilbaud Marceau | La naissance d'Apple.  OK
+DESMAZIERES Louis | Le premier ordinateur OK
+Matrin D | La naissance de l'iphone OK
+Louane | les premiers calculateurs mécaniques OK
+Victor S | Gordon Moore - Fabrication du premier microprocesseur - 1968  OK
+Pierre-Marie | langage assembleur (et carte perforée ? ) OK

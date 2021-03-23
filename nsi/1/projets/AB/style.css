@@ -1,0 +1,129 @@
+/* Page de style */
+ 
+html{ 
+    font-size: 20px; 
+}
+.sources{
+	font-size: 2rem;
+	text-align: center;
+}
+.template{
+    height: 250px; /* hauteur du header à changer en fonction de la photo choisi */
+    background-image: url('images/OIP.jpg');
+    text-align:center;
+    color: white;
+    font-weight: bold;
+}
+.liste{
+	text-align: center;
+	font-size: 1rem;
+	color: black;
+}
+.np{
+	text-align: center;
+}
+body{
+    width: 70%;
+    margin: 0 auto; 
+}
+h1{
+    font-size: 2rem; 
+}
+h2{
+    font-size: 1.5rem;
+    text-align:center;
+}
+
+footer{
+    text-align:center;
+    margin: 2rem;
+}
+
+a.bouton1 {
+padding: 10px 30px; 
+background: green; 
+color: white; 
+}
+a.bouton1:hover {
+background: grey; 
+}
+
+a.bouton2 {
+padding: 10px 30px; 
+background: purple; 
+color: white; 
+}
+a.bouton2:hover {
+background: grey; 
+}
+
+.img{
+	width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cv{
+	background-image: url("images/background.jpg");
+}
+.int{
+	text-align: center;
+}
+/*Menu*/
+li {
+	list-style:none !important;
+	color:#FFF;
+	padding:1em;
+	font-size:20px;
+	text-decoration:none;
+}
+ 
+nav ul {
+	background-color:#124E12;
+	padding:0;
+	margin:0;
+}
+ 
+nav ul li {
+	list-style: none;
+	line-height:44px;
+	float:center;
+	background-color:#124E12 ;
+}
+ 
+nav ul li a {
+	color:#FFF;
+	padding:10px;
+	font-size:20px;
+	text-decoration:none;
+}
+ 
+li a:hover {
+	border-bottom:3px #FFF solid;
+}
+
+nav ul li ul { display:none; } 
+ 
+nav ul li:hover ul { 	
+	z-index:99999;
+	display:list-item !important;
+	position:absolute;
+	margin-top:5px;
+	margin-left:-10px;
+}
+ 
+nav ul li:hover ul li {
+	float:none;
+}
+
+
+
+
+	
+	
+	
+
+
+	
+	
+
