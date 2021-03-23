@@ -2,16 +2,16 @@
 
 
 
-|**Algorithmie **||||
+|**Algorithmie**||||
 |:----------------:|:---------------:|:----------:|:-----|
 ||*[le cours et les exercices](nsi_1_ch4.pdf)*|||
-|**Initiation Python **||||
+|**Initiation Python**||||
 ||*[Le cours et les savoir-faire](nsi_1_ch1.pdf)*|||
 |**Représentation des données**||||
 ||*[Le cours et les savoir-faire](nsi_1_ch2.pdf)*|||
 |**Les dictionnaires Python**||||
 ||*[le cours et les savoir-faire](nsi_1_ch3.pdf)*|||
-|**Algorithmie **||||
+|**Algorithmie**||||
 ||*[le cours et les exercices](nsi_1_ch4.pdf)*|||
 |**Architecture**||||
 ||*[Le cours](nsi_1_ch5.pdf)*|||
