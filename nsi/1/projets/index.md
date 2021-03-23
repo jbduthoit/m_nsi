@@ -1,7 +1,7 @@
 
 ## Voici les projets réalisés par les élèves de 1 ère NSI.
 
-L'objectif du travail était de réaliser un mini site, en lien avec l'histoire de l'informatique.
+L'objectif du travail était de réaliser un mini site, en lien avec l'histoire de l'informatique. Obligation d'utiliser notamment une feuille de style .css .
 
 Il fallait construire au minimum 3 pages html : une avec le thème étudié, une autre avec les sources et une dernière, plus personnelle, sur l'élève qui l'a réalisé (identité, intérêt, projet de formation etc...).
 
