@@ -1,0 +1,59 @@
+/* Page de style */
+ 
+html{ 
+    font-size: normal; 
+}
+
+header{
+    height: 276px; /* hauteur du header à changer en fonction de la photo choisi */
+	width: 1024px;
+    background-image: url('images/bandeau.png');
+    text-align:center;
+    color: white;
+    font-weight: bold;
+}
+
+
+#menu {
+    position: fixed;
+    left: 2px;
+    top: 45%;
+    width: 150px;
+    margin: 0 0 0 0;
+	padding: 10px 0px 10px 35px;
+    font-size:1.5rem;
+    text-align: left;
+	text-indent: 10px;
+	color: gray;
+   	border: 3px solid hsla(121, 73%, 17%, 0.5);
+    /*border-right: none;*/
+    border-radius: 10px 35px 10px 10px;
+	z-index: 2;
+  }
+
+body{
+    width: 70%;
+    margin: 0 auto;
+	font-family: Verdana,Helvetica, sans-serif;
+	text-align:left;
+	color : gray;
+}
+h1{
+    font-size: 2rem; 
+	font-family: Verdana,Helvetica, sans-serif;
+	text-align:center;
+}
+h2{
+    font-size: 1.5rem;
+    text-align:center;
+
+
+}
+p#eleve{
+    font-size: 1.5rem;
+}
+footer{
+    text-align:center;
+    margin: 2rem;
+}
+
