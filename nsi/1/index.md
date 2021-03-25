@@ -25,9 +25,11 @@
 ||*[le cours](nsi_1_ch7.pdf)*|||
 ||||**[Les projets](projets/index.html)**|
 |**Système d'exploitation**||||
-||*Système d'exploitation Linux: définition*|[Le cours et les exos](nsi_1_linux_1.pdf)||
+||*Système d'exploitation Linux: définition*|[Le système d'exploitation](nsi_1_linux_1.pdf)||
 ||*Ligne de commande*|[Le cours et les exos](nsi_1_linux_2.pdf)|[Apprendre les lignes de commandes par un jeu](http://luffah.xyz/bidules/Terminus/)|
-
+||*Découvrir un émulateur en ligne*|[Le TD](nsi_1_td_linux_1.pdf)||
+||*TD sur les lignes de commandes*|[Le TD](nsi_1_td_linux_1.pdf)||
+||*TD sur la gestion des droits*|[Le TD](nsi_1_td_linux_3.pdf)||
 
 
 
