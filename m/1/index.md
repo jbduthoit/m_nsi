@@ -30,6 +30,15 @@
 - [Le cours, les savoir-faire et les exos d'entraînement !](m_1_ch7.pdf)
 
 
+|**Les suites**||||
+|:----------------:|:---------------:|:----------:|:-----|
+||*Définitions et mode de génération*|[Le cours et les exos](m_1_suites_1.pdf)||
+||*Les suites arithmétiques*]|[Le cours et les sf](m_1_suites_2.pdf)||
+||*Les suites géométriques*|[Le cours et les exos](m_1_suites_3.pdf)||
+||*Variations de suites*|[Le cours et les exos](m_1_suites_4.pdf)||
+||*Limites*|[Le cours et les exos](m_1_suites_5.pdf)||
+
+
 |**Trigonométrie**||||
 |:----------------:|:---------------:|:----------:|:-----|
 ||*Cercle trigonométrique et radian*|[Le cours et les exos](m_1_trigo_1.pdf)||
