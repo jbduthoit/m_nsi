@@ -42,7 +42,7 @@
 
 |**Repèrage**||||
 |:----------------:|:---------------:|:----------:|:-----:|
-||*Coordonnées d'un point*|[Le cours et les exos](m_2_repere_.pdf)||
+||*Coordonnées d'un point*|[Le cours et les exos](m_2_repere_1.pdf)||
 
 
 
