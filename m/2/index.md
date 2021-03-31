@@ -40,6 +40,11 @@
 ||*Tableaux de signes et Inéquations*|[Le cours et les exos](m_2_fonctions_affines_3.pdf)||
 
 
+|**Repèrage**||||
+|:----------------:|:---------------:|:----------:|:-----:|
+||*Coordonnées d'un point*|[Le cours et les exos](m_2_repere_.pdf)||
+
+
 
 # Perseverance
 - [L'activité !](m_2_nasa.pdf)
