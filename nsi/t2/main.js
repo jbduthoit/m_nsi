@@ -1,5 +1,5 @@
 // %2FSite_Nsi%2F changer cette valeur pour le chemin racine jusqu'a File non compris les / sont remplacer par des %2F et on commence par un %2F
-const pageQuote = "%2Fm_nsi%2Fnsi%2Ft2%2F" 
+const pageQuote = "%2m_nsi%2Fnsi%2Ft2%2F" 
 
 pdfjsLib.GlobalWorkerOptions.workerSrc = 'PDFJS/build/pdf.worker.js';
 
@@ -96,15 +96,21 @@ function afficherSvg() {
 // cette fonction permet d'afficher le menu pour mobile
 function menuSommaireOpen() {
     let divMenu = document.getElementById("divMenu")
-    document.getElementById("chapitreMenu").innerHTML = document.getElementById("chapitre").innerHTML
     document.getElementById("chapitre-pdf").className += " hidden"
+    var MenuChapitre = document.getElementById("chapitreMenu")
+    MenuChapitre.className = "block w-full h-full z-10"
+    MenuChapitre.innerHTML = document.getElementById("chapitre").innerHTML
+    document.getElementById("footer").className = "hidden"
     divMenu.innerHTML = '<button class="focus:outline-none" onclick=menuSommaireClose()><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="32" height="32" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg></button>'
 }
 
 // cette fonction sert a fermer le menu et changer le bouton du menu pour mobile
 function menuSommaireClose() {
     let divMenu = document.getElementById("divMenu")
-    document.getElementById("chapitreMenu").innerHTML = ""
+    var MenuChapitre = document.getElementById("chapitreMenu")
+    MenuChapitre.className = "hidden w-full h-full z-10"
+    MenuChapitre.innerHTML = ""
+    document.getElementById("footer").className = "block"
     document.getElementById("chapitre-pdf").className = "flex flex-row"
     divMenu.innerHTML = '<button class="focus:outline-none" onclick=menuSommaireOpen()><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="32" height="32"stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" /></svg></button>'
 }
