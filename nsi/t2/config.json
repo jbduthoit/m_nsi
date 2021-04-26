@@ -59,9 +59,14 @@
   },
   {
     "Titre_Chap": "Les files",
-    "Table_Des_Matière": true,
-	"Pdf_Href": "File/nsi_t_file.pdf",
-    "Table_Des_Matière_Length": 1
+    "Table_Des_Matière": false,
+	"Sous_Chapitre": [
+      {
+        "Titre": "Le cours et les savoir-faire",
+        "Type": "pdf",
+        "Href": "File/nsi_t_file.pdf"
+      }
+    ]
   },
   {
     "Titre_Chap": "Les piles",
