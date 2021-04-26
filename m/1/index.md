@@ -46,4 +46,8 @@
 ||*Cosinus et sinus*|[Le cours et les exos](m_1_trigo_3.pdf)||
 ||*Equations trigonométrique*|[Le cours et les exos](m_1_trigo_4.pdf)||
 
+|**La fonction exponentielle**||||
+|:----------------:|:---------------:|:----------:|:-----|
+||*Définition de la fonction exponentielle*|[Le cours et les exos](m_1_expo_1.pdf)||
+||*Etude de la fonction exponetielle*|[Le cours et les exos](m_1_expo_2.pdf)||
 
