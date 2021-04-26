@@ -1,0 +1,206 @@
+[
+  {
+    "Titre_Chap": "Réussir l'épreuve pratique",
+    "Table_Des_Matière": false,
+    "Sous_Chapitre": [
+      {
+        "Titre": "Les algorithmes de recherches séquentielles",
+        "Type": "pdf",
+        "Href": "File/nsi_t_rech_o.pdf"
+      },
+      {
+        "Titre": "Le tri selection",
+        "Type": "pdf",
+        "Href": "File/nsi_t_tri_s.pdf"
+      },
+      {
+        "Titre": "Le tri insertion",
+        "Type": "pdf",
+        "Href": "File/nsi_t_tri_i.pdf"
+      },
+      {
+        "Titre": "La recherche dichotomique",
+        "Type": "pdf",
+        "Href": "File/nsi_t_rech_d.pdf"
+      },
+      {
+        "Titre": "Le tri fusion",
+        "Type": "pdf",
+        "Href": "File/nsi_t_tri_f.pdf"
+      },
+      {
+        "Titre": "KNN",
+        "Type": "pdf",
+        "Href": "File/nsi_t_ep_knn.pdf"
+      }
+    ]
+  },
+  {
+    "Titre_Chap": "Les projets",
+    "Table_Des_Matière": false,
+    "Sous_Chapitre": [
+      {
+        "Titre": "Créer un annuaire téléphonique en utilisant une base de données",
+        "Type": "pdf",
+        "Href": null
+      },
+      {
+        "Titre": "Créer un jeu de morpion",
+        "Type": "pdf",
+        "Href": "File/projet_morpion.pdf"
+      }
+    ]
+  },
+  {
+    "Titre_Chap": "Les listes chaînées",
+    "Table_Des_Matière": true,
+    "Pdf_Href": "File/nsi_t_ch3.pdf",
+    "Table_Des_Matière_Length": 2
+  },
+  {
+    "Titre_Chap": "Les files",
+    "Table_Des_Matière": false,
+    "Sous_Chapitre": [
+      {
+        "Titre": "Le cours et les savoir-faire",
+        "Type": "pdf",
+        "Href": "File/nsi_t_file.pdf"
+      }
+    ]
+  },
+  {
+    "Titre_Chap": "Les piles",
+    "Table_Des_Matière": false,
+    "Sous_Chapitre": [
+      {
+        "Titre": "Le cours et les savoir-faire",
+        "Type": "pdf",
+        "Href": "File/nsi_t_pile.pdf"
+      }
+    ]
+  },
+  {
+    "Titre_Chap": "Les dictionnaires",
+    "Table_Des_Matière": false,
+    "Sous_Chapitre": [
+      {
+        "Titre": "Le cours et les savoir-faire",
+        "Type": "pdf",
+        "Href": "File/nsi_t_ch8.pdf"
+      },
+      {
+        "Titre": "le fichier titanic pour le dernier exercice",
+        "Type": "download",
+        "Href": "File/titanic.csv"
+      }
+    ]
+  },
+  {
+    "Titre_Chap": "Les arbres",
+    "Table_Des_Matière": false,
+    "Sous_Chapitre": [
+      {
+        "Titre": "Le cours et les savoir-faire",
+        "Type": "pdf",
+        "Href": "File/nsi_t_ch9.pdf"
+      }
+    ]
+  },
+  {
+    "Titre_Chap": "Les processus",
+    "Table_Des_Matière": true,
+    "Pdf_Href": "File/nsi_t_ch13.pdf",
+    "Table_Des_Matière_Length": 1
+  },
+  {
+    "Titre_Chap": "Le routage",
+    "Table_Des_Matière": true,
+    "Pdf_Href": "File/nsi_t_ch10.pdf",
+    "Table_Des_Matière_Length": 1
+  },
+  {
+    "Titre_Chap": "Diviser pour régner",
+    "Table_Des_Matière": true,
+    "Pdf_Href": "File/nsi_t_ch11.pdf",
+    "Table_Des_Matière_Length": 1
+  },
+  {
+    "Titre_Chap": "Les SoCs",
+    "Table_Des_Matière": true,
+    "Pdf_Href": "File/nsi_t_ch12.pdf",
+    "Table_Des_Matière_Length": 1
+  },
+  {
+    "Titre_Chap": "Les graphes",
+    "Table_Des_Matière": true,
+    "Pdf_Href": "File/nsi_t_ch14.pdf",
+    "Table_Des_Matière_Length": 1
+  },
+  {
+    "Titre_Chap": "Sécurisation",
+    "Table_Des_Matière": false,
+    "Sous_Chapitre": [
+      {
+        "Titre": "Introduction à la sécurisation",
+        "Type": "pdf",
+        "Href": "File/nsi_t_securisation_1.pdf"
+      },
+      {
+        "Titre": "Cryptographie symétrique",
+        "Type": "pdf",
+        "Href": "File/nsi_t_securisation_2.pdf"
+      },
+      {
+        "Titre": "Cryptographie asymétrique",
+        "Type": "pdf",
+        "Href": null
+      },
+      {
+        "Titre": "Découvrir le kid RSA",
+        "Type": "link",
+        "Href": "https://www.cs.uri.edu/cryptography/publickeykidkrypto.htm"
+      },
+      {
+        "Titre": "Exercice kid rsa",
+        "Type": "pdf",
+        "Href": null
+      },
+      {
+        "Titre": "Authentification des participants",
+        "Type": "pdf",
+        "Href": "File/nsi_t_securisation_4.pdf"
+      },
+      {
+        "Titre": "Le protocole HTTPS",
+        "Type": "pdf",
+        "Href": "File/nsi_t_securisation_5.pdf"
+      }
+    ]
+  },
+  {
+    "Titre_Chap": "Recherche textuelle",
+    "Table_Des_Matière": false,
+    "Sous_Chapitre": [
+      {
+        "Titre": "Introduction à la recherche textuelle",
+        "Type": "pdf",
+        "Href": "File/nsi_t_recherche_textuelle_1.pdf"
+      },
+      {
+        "Titre": "Algorithme naïfs",
+        "Type": "pdf",
+        "Href": "File/nsi_t_recherche_textuelle_2.pdf"
+      },
+      {
+        "Titre": "Algorithme de Boyer-Moore",
+        "Type": "pdf",
+        "Href": "File/nsi_t_recherche_textuelle_3.pdf"
+      },
+      {
+        "Titre": "Prolongements",
+        "Type": "pdf",
+        "Href": "File/nsi_t_recherche_textuelle_4.pdf"
+      }
+    ]
+  }
+]

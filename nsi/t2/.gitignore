@@ -1,0 +1,5 @@
+# Les ligne commençant par '#' sont des commentaires.
+# ne prend pas en compte le dossier env/
+env/
+# ne prend pas en compte le dossier .vscode/
+.vscode/
