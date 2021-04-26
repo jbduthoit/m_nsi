@@ -1,5 +1,5 @@
 // %2FSite_Nsi%2F changer cette valeur pour le chemin racine jusqu'a File non compris les / sont remplacer par des %2F et on commence par un %2F
-const pageQuote = "%2FSite_Nsi%2F" 
+const pageQuote = "%2Fm_nsi%2Fnsi%2Ft2%2F" 
 
 pdfjsLib.GlobalWorkerOptions.workerSrc = 'PDFJS/build/pdf.worker.js';
 
