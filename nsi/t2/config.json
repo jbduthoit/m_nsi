@@ -202,5 +202,26 @@
         "Href": "File/nsi_t_recherche_textuelle_4.pdf"
       }
     ]
+  },
+  {
+    "Titre_Chap": "Programmation dynamique",
+    "Table_Des_Matière": false,
+    "Sous_Chapitre": [
+      {
+        "Titre": "Introduction à la programmation dynamique",
+        "Type": "pdf",
+        "Href": "File/nsi_t_prog_dyn_1.pdf"
+      },
+      {
+        "Titre": "La programmation dynamique avec Fibonacci",
+        "Type": "pdf",
+        "Href": "File/nsi_t_recherche_textuelle_2.pdf"
+      },
+      {
+        "Titre": "Le rendu de monnaie",
+        "Type": "pdf",
+        "Href": "File/nsi_t_recherche_textuelle_3.pdf"
+      }
+    ]
   }
 ]
