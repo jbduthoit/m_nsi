@@ -206,23 +206,8 @@
   {
     "Titre_Chap": "Programmation dynamique",
     "Table_Des_Matière": false,
-    "Sous_Chapitre": [
-      {
-        "Titre": "Introduction à la programmation dynamique",
-        "Type": "pdf",
-        "Href": "File/nsi_t_prog_dyn_1.pdf"
-      },
-      {
-        "Titre": "La programmation dynamique avec Fibonacci",
-        "Type": "pdf",
-        "Href": "File/nsi_t_prog_dyn_2.pdf"
-      },
-      {
-        "Titre": "Le rendu de monnaie",
-        "Type": "pdf",
-        "Href": "File/nsi_t_prog_dyn_3.pdf"
-      }
-    ]
+    "Pdf_Href": "File/nsi_t_prog_dyn.pdf",
+    "Table_Des_Matière_Length": 2
   }
   
 ]
