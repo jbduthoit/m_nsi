@@ -30,7 +30,11 @@
 ||*Découvrir un émulateur en ligne*|[Le TD](nsi_1_td_linux_1.pdf)||
 ||*TD sur les lignes de commandes*|[Le TD](nsi_1_td_linux_2.pdf)||
 ||*TD sur la gestion des droits*|[Le TD](nsi_1_td_linux_3.pdf)||
-
+|**Les données structurées**||||
+||*Lire, écrire et modifier un fichier txt avec python*|[Le cours et exos](nsi_1_donnees_1.pdf)||
+||*Les fichiers .csv*|[Le cours et exos](nsi_1_donnees_2.pdf)||
+||*Importer des données depuis un fichier csv*|[Le cours et exos](nsi_1_donnees_3.pdf)||
+||*Savoir rechercher une donnée avec python*|[Le cours et exos](nsi_1_donnees_4.pdf)|[Le fichier titanic](titanic.csv)|
 
 
 ## Quelques vidéos :-)!
