@@ -206,4 +206,4 @@ function pdfHref(url, page) {
 }
 
 // Ce pdf est le pdf qui est afficher quand on arrive sur le site
-document.getElementById("pdf").src = "PDFJS/web/viewer.html?file=" + pageQuote + "File%2Fnsi_t_ch3.pdf&view=fitH"
+document.getElementById("pdf").src = "PDFJS/web/viewer.html?file=" + pageQuote + "File%2Fnsi_t_prog_dyn_1.pdf&view=fitH"
