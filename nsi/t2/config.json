@@ -204,9 +204,25 @@
     ]
   },
   {
-    "Titre_Chap": "Programmation dynamique",
+    "Titre_Chap": "Recherche textuelle",
     "Table_Des_Matière": false,
-    "Href": "File/nsi_t_prog_dyn.pdf"
+    "Sous_Chapitre": [
+      {
+        "Titre": "Introduction",
+        "Type": "pdf",
+        "Href": "File/nsi_t_prog_dyn_1.pdf"
+      },
+      {
+        "Titre": "La programmation dynamique",
+        "Type": "pdf",
+        "Href": "File/nsi_t_prog_dyn_2.pdf"
+      },
+      {
+        "Titre": "Problème du rendu de monnaie",
+        "Type": "pdf",
+        "Href": "File/nsi_t_prog_dyn_3.pdf"
+      }
+    ]
   }
   
 ]
