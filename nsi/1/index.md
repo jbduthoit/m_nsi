@@ -34,7 +34,7 @@
 ||*Lire, écrire et modifier un fichier txt avec python*|[Le cours et exos](nsi_1_donnees_1.pdf)||
 ||*Les fichiers .csv*|[Le cours et exos](nsi_1_donnees_2.pdf)||
 ||*Importer des données depuis un fichier csv*|[Le cours et exos](nsi_1_donnees_3.pdf)|[Le fichier pays.csv](pays.csv)|
-||*Savoir rechercher une donnée avec python*|[Le cours et exos](nsi_1_donnees_4.pdf)|[Le fichier titanic](titanic.csv)|
+||*Savoir rechercher et trier*|[Le cours et exos](nsi_1_donnees_4.pdf)|[Le fichier titanic](titanic.csv)|
 
 
 ## Quelques vidéos :-)!

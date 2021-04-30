@@ -68,8 +68,18 @@
 ||*Authentification des participants*|[Le cours et les exos](nsi_t_securisation_4.pdf)||
 ||*Le protocole HTTPS*|[Le cours et les exos](nsi_t_securisation_5.pdf)||
 |||[kid_rsa](https://www.cs.uri.edu/cryptography/publickeykidkrypto.htm) / [Exercice](Kid.pdf)|
+
+
 |**Recherche textuelle**||||
+|:----------------:|:---------------:|:----------:|:-----|
 ||*Introduction à la recherche textuelle*|[Le cours et les exos](nsi_t_recherche_textuelle_1.pdf)||
 ||*Algorithme naïfs*|[Le cours et les exos](nsi_t_recherche_textuelle_2.pdf)||
 ||*Algorithme de Boyer-Moore*|[Le cours et les exos](nsi_t_recherche_textuelle_3.pdf)||
 ||*Prolongements*|[Le cours et les exos](nsi_t_recherche_textuelle_4.pdf)||
+
+
+|**Programmation dynamique**||||
+|:----------------:|:---------------:|:----------:|:-----|
+||*Introduction à la programmation dynamique*|[Le cours et les exos](nsi_t_prog_dyn_1.pdf)||
+||*La programmation dynamique pour Fibonacci*|[Le cours et les exos](nsi_t_prog_dyn_2.pdf)||
+||*Programmation dynamique et rendu de monnaie*|[Le cours et les exos](nsi_t_prog_dyn_3.pdf)||
