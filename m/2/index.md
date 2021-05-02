@@ -44,7 +44,7 @@
 |:----------------:|:---------------:|:----------:|:-----:|
 ||*Coordonnées d'un point*|[Le cours et les exos](m_2_repere_1.pdf)||
 ||*Coordonnées d'un vecteur*|[Le cours et les exos](m_2_repere_2.pdf)||
-
+||*Colinéarité de deux vecteurs*|[Le cours et les exos](m_2_repere_3.pdf)||
 
 
 # Perseverance

@@ -5,6 +5,10 @@
 - [Sujet zéro](sujet0.pdf)
 
 
+## Réussir le grand_oral	
+
+- [Réussir le Grand oral](grand_oral.pdf)	
+
 ## Réussir l'épreuve pratique
 - [Les algorithmes de recherches séquentielles](nsi_t_rech_o.pdf)
 - [Le tri selection](nsi_t_tri_s.pdf)
