@@ -35,7 +35,7 @@
 ||*Les fichiers .csv*|[Le cours et exos](nsi_1_donnees_2.pdf)||
 ||*Importer des données depuis un fichier csv*|[Le cours et exos](nsi_1_donnees_3.pdf)|[Le fichier pays.csv](pays.csv)|
 ||*Savoir rechercher et trier*|[Le cours et exos](nsi_1_donnees_4.pdf)|[Le fichier titanic](titanic.csv)|
-
+||*Savoir réunir et fusionner deux tables*|[Le cours et exos](nsi_1_donnees_5.pdf)||
 
 ## Quelques vidéos :-)!
 - [vidéo youtube](https://youtube.com/channel/UCO0N4ExyrTAh4UdC14CZ5hQ)
