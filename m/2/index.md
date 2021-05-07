@@ -47,5 +47,9 @@
 ||*Colinéarité de deux vecteurs*|[Le cours et les exos](m_2_repere_3.pdf)||
 
 
+|**Informations chiffrées**||||
+|:----------------:|:---------------:|:----------:|:-----:|
+||*Proportions*|[Le cours et les exos](m_2_info_1.pdf)||
+
 # Perseverance
 - [L'activité !](m_2_nasa.pdf)
