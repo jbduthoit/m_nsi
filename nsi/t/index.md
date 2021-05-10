@@ -87,3 +87,9 @@
 ||*Introduction à la programmation dynamique*|[Le cours et les exos](nsi_t_prog_dyn_1.pdf)||
 ||*La programmation dynamique pour Fibonacci*|[Le cours et les exos](nsi_t_prog_dyn_2.pdf)||
 ||*Programmation dynamique et rendu de monnaie*|[Le cours et les exos](nsi_t_prog_dyn_3.pdf)||
+
+|**Décidabilité et calculabilité**||||
+|:----------------:|:---------------:|:----------:|:-----|
+||*1*|[Le cours et les exos](nsi_t_decidabilite_1.pdf)||
+||*2*|[Le cours et les exos](nsi_t_decidabilite_2.pdf)||
+||*Calculabilité*|[Le cours et les exos](nsi_t_decidabilite_3.pdf)||
