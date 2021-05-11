@@ -51,3 +51,7 @@
 ||*Définition de la fonction exponentielle*|[Le cours et les exos](m_1_expo_1.pdf)||
 ||*Etude de la fonction exponetielle*|[Le cours et les exos](m_1_expo_2.pdf)||
 
+|**Les variables aléatoires**||||
+|:----------------:|:---------------:|:----------:|:-----|
+||*La notion de variable aléatoire*|[Le cours et les exos](m_1_expo_1.pdf)||
+||*Variance d'unbe variable aléatoire*|[Le cours et les exos](m_1_expo_2.pdf)||
