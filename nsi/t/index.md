@@ -23,6 +23,14 @@
 
 ## Les bases de données
 
+
+|**Les bases de données**||||
+|:----------------:|:---------------:|:----------:|:-----|
+||*1*|[Le cours et les exos](nsi_t_bdd_1.pdf)||
+||*2*|[Le cours et les exos](nsi_t_bdd_2.pdf)||
+||*3*|[Le cours et les exos](nsi_t_bdd_3.pdf)||
+||*4*|[Le cours et les exos](nsi_t_bdd_4.pdf)||
+
 ## Langage SQL
 
 ## La POO
