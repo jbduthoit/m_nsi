@@ -53,5 +53,5 @@
 
 |**Les variables aléatoires**||||
 |:----------------:|:---------------:|:----------:|:-----|
-||*La notion de variable aléatoire*|[Le cours et les exos](m_1_expo_1.pdf)||
-||*Variance d'unbe variable aléatoire*|[Le cours et les exos](m_1_expo_2.pdf)||
+||*La notion de variable aléatoire*|[Le cours et les exos](m_1_va_1.pdf)||
+||*Variance d'unbe variable aléatoire*|[Le cours et les exos](m_1_va_2.pdf)||
