@@ -1,16 +1,16 @@
 # Mathématiques en seconde
 
 
-|**Chapitre**|**Notion**||**s'entraîner**|
-|:----------------:|:---------------:|:----------:|:-----|
+
 |**Nombres et intervalles**||||
+|:----------------:|:---------------:|:----------:|:-----|
 ||*Nombres et intervalles*|[Le cours et les savoir-faire](m_2_ch1.pdf)||
 |**Généralités sur les fonctions**||||
 ||*Généralités sur les fonctions*|[Le cours et les savoir-faire](m_2_ch2.pdf)||
 |**Les vecteurs du plan**||||
 ||*Les vecteurs du plan*|[Le cours et les savoir-faire](m_2_ch3.pdf)||
-|||[se tester avec un petit QCM](https://doctools.dgpad.net/exam.php?datas=eyJiYXNlaWQiOiIxWHhYckM2cFFlZzlWdzNVa1I1NzJFTFY0VUV1Y3Q5Q0pkQkJFNGhQX3NubyIsImRlX2Jhc2UiOiIxNWtnV0tfQmNXenhnSER5NjlrVDUyc0ZacmpUSmNsSDg2V19kMWFhNERxTSIsImlkIjoiMUhYQzk0MlJtb0FqdEgxR3hQaWlndldJb1VnU3Bzc1dGVHNiU2hWVjhKQ2MiLCJ1c2VycyI6IkFub255bWUifQ==)|
-||| [refaire l'interrogation de la semaine dernière , sur QCM](https://doctools.dgpad.net/exam.php?datas=eyJiYXNlaWQiOiIxWHhYckM2cFFlZzlWdzNVa1I1NzJFTFY0VUV1Y3Q5Q0pkQkJFNGhQX3NubyIsImRlX2Jhc2UiOiIxNWtnV0tfQmNXenhnSER5NjlrVDUyc0ZacmpUSmNsSDg2V19kMWFhNERxTSIsImlkIjoiMWRmNlprS2I4YlNidVlmNTVOaG1EOUNXYTlMdklOOGNhbFZ5bEdKMm02dm8iLCJ1c2VycyI6IkFub255bWUifQ==)|
+||||[se tester avec un petit QCM](https://doctools.dgpad.net/exam.php?datas=eyJiYXNlaWQiOiIxWHhYckM2cFFlZzlWdzNVa1I1NzJFTFY0VUV1Y3Q5Q0pkQkJFNGhQX3NubyIsImRlX2Jhc2UiOiIxNWtnV0tfQmNXenhnSER5NjlrVDUyc0ZacmpUSmNsSDg2V19kMWFhNERxTSIsImlkIjoiMUhYQzk0MlJtb0FqdEgxR3hQaWlndldJb1VnU3Bzc1dGVHNiU2hWVjhKQ2MiLCJ1c2VycyI6IkFub255bWUifQ==)|
+|||| [refaire l'interrogation de la semaine dernière , sur QCM](https://doctools.dgpad.net/exam.php?datas=eyJiYXNlaWQiOiIxWHhYckM2cFFlZzlWdzNVa1I1NzJFTFY0VUV1Y3Q5Q0pkQkJFNGhQX3NubyIsImRlX2Jhc2UiOiIxNWtnV0tfQmNXenhnSER5NjlrVDUyc0ZacmpUSmNsSDg2V19kMWFhNERxTSIsImlkIjoiMWRmNlprS2I4YlNidVlmNTVOaG1EOUNXYTlMdklOOGNhbFZ5bEdKMm02dm8iLCJ1c2VycyI6IkFub255bWUifQ==)|
 |**Arithmétique**||||
 ||*Proba en seconde*|[Le cours et les savoir-faire](m_2_ch4.pdf)||
 |**Variations de fonctions et extrema**||||
