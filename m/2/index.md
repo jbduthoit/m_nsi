@@ -49,7 +49,7 @@
 
 |**Informations chiffrées**||||
 |:----------------:|:---------------:|:----------:|:-----:|
-||*Proportions*|[Le cours et les exos](m_2_info_1.pdf
+||*Proportions*|[Le cours et les exos](m_2_info_1.pdf)||
 ||*Evolution*|[Le cours et les exos](m_2_info_2.pdf)||
 ||*Hors programme mais facile: les indices*|[Le cours et les exos](m_2_info_3.pdf)||
 
