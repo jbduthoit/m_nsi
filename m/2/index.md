@@ -1,7 +1,7 @@
 # Mathématiques en seconde
 
 
-|**Mathématiques Seconde**||||
+|**Chapitre**|**Notion**||**s'entraîner**|
 |:----------------:|:---------------:|:----------:|:-----|
 |**Nombres et intervalles**||||
 ||*Nombres et intervalles*|[Le cours et les savoir-faire](m_2_ch1.pdf)||
