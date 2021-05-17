@@ -19,7 +19,7 @@ div#conteneur
 h1#header
 {
 	height: 258px ;
-	background: url(im.png) no-repeat left top ;
+	background: url(imsec.png) no-repeat right top ;
 	margin: 0 ;
 }
 
@@ -31,7 +31,7 @@ h1#header a
 	background: url(titrem2.png) no-repeat ;
 	position: relative ;
 	left: 50px ;
-	top: 20px ;
+	top: 80px ;
 	text-indent: -5000px ;
 }
 
