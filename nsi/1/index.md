@@ -37,9 +37,12 @@
 ||*Savoir rechercher et trier*|[Le cours et exos](nsi_1_donnees_4.pdf)|[Le fichier titanic](titanic.csv)|
 ||*Savoir réunir et fusionner deux tables*|[Le cours et exos](nsi_1_donnees_5.pdf)||
 |**Les réseaux**||||
-||*Intro*|[Le cours et exos](nsi_1_reseaux_1.pdf)||
-||*Intro*|[Le cours et exos](nsi_1_reseaux_2.pdf)||
-||*TCP/IP*|[Le cours et exos](nsi_1_reseaux_3.pdf)||
+||*Intro sur les réseaux*|[Intro sur les réseaux](nsi_1_reseaux_1.pdf)||
+||*Le modèle OSI*|[Le modèle OSI](nsi_1_reseaux_2.pdf)||
+||*Les adresses IP*|[Les adresses IP](nsi_1_reseaux_3.pdf)||
+||*TCP/IP*|[TCP IP](nsi_1_reseaux_4.pdf)||
+||*Simuler un reseau*|[Netsim](nsi_1_reseaux_5.pdf)||
+||*Annexes*|[Annexes](nsi_1_reseaux_6.pdf)||
 
 
 
