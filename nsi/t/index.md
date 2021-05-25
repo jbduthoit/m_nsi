@@ -98,6 +98,11 @@
 ||*Autres problèmes*|[Le cours et les exos](nsi_t_prog_dyn_4.pdf)||
 
 
+|**Paradigme de programmation**||||
+|:----------------:|:---------------:|:----------:|:-----|
+||*1*|[Le cours et les exos](nsi_t_paradigme_1.pdf)||
+
+
 
 |**Décidabilité et calculabilité**||||
 |:----------------:|:---------------:|:----------:|:-----|
