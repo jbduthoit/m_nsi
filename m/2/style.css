@@ -129,6 +129,42 @@ div#contenu_cours a.qcm
 	
 }
 
+div#contenu_cours a.video
+{
+	color: black ;
+	font-size: 1.17em ;
+	text-decoration: none;
+	margin-left: 35px ;
+	padding-left: 5px ;
+	border-left: 5px solid orange  ;
+	
+}
+
+
+div#contenu_cours a.td
+{
+	color: black ;
+	font-size: 1.17em ;
+	text-decoration: none;
+	margin-left: 35px ;
+	padding-left: 5px ;
+	border-left: 5px solid green  ;
+	
+}
+
+
+div#contenu_cours a.autre
+{
+	color: black ;
+	font-size: 1.17em ;
+	text-decoration: none;
+	margin-left: 35px ;
+	padding-left: 5px ;
+	border-left: 5px solid white ;
+	
+}
+
+
 div#contenu_cours a:hover
 {
 	color: #7481b5 ;
