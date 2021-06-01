@@ -1,0 +1,10 @@
+<input type="button" value="Changer couleur" onclick="ChCoul()"/>
+<script>
+	function ChCoul(){
+		const coul = document.body.style.backgroundColor;
+		if (coul == "green"){
+			document.body.style.backgroundColor  = "red";
+		}
+		else {document.body.style.backgroundColor  = "green";}
+	}
+</script>
