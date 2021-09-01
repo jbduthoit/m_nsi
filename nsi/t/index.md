@@ -1,5 +1,10 @@
 # Spécialité NSI en terminale
 
+
+# Se refamiliariser avec Python
+- [Des exercices niveau première](exos_f_pythons.pdf)
+
+
 # sujets
 
 - [Sujet zéro](sujet0.pdf)
