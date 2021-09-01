@@ -1,7 +1,7 @@
 # Spécialité Mathématiques en première
 
 ## Le second degré (partie 1)
-- [Le cours et les savoir-faire](maths_1_ch1.pdf)
+- [Le cours et les savoir-faire](m_1_sec_part1_1.pdf)
 
 ## Les équations cartésiennes (chapitre des seconde)
 - [Le cours et les savoir-faire](maths_1_ch2.pdf)
