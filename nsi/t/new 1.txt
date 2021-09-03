@@ -1,0 +1,129 @@
+<!DOCTYPE html">
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+
+	<link href="style.css" rel="stylesheet">
+
+    <title>Maths et NSI</title>
+  </head>
+  
+  <body>
+  <div id="conteneur">    
+    <h1 id="header"><a href="#" title="Accueil"><span>jb duthoit</span></a></h1>
+
+    <nav>
+      <ul id="menu">
+		<li><a href="accueil.html">  Accueil  </a></li>
+        <li><a href="index.html">  Les cours et savoir-faire  </a></li>
+        <li><a href="python.html">  Python  </a></li>
+        <li><a href="logiciel.html">  Logiciels  </a></li>
+        
+      </ul>
+    </nav>
+    
+	
+	<div id="projet">
+	<h2> Les projets en html et css </h2>
+	<a class="autre" href= "projets/index" target="_blank"> Voir le travail réalisé par les élèves </a>
+	</div>
+	
+	
+	
+    <div id="contenu_cours">
+		<h2>Initiation Python</h2>
+			
+		<p> <a href="nsi_1_init_python_1.pdf">  Découvrir le langage Python </a> </p>
+		<p> <a href="nsi_1_init_python_2.pdf">  Les stuctures SI ALORS, POUR et TANT QUE... </a> </p>
+		<p> <a href="nsi_1_init_python_3.pdf">  Les fonctions pythons</a> </p>
+		<p> <a href="nsi_1_init_python_4.pdf">  Les séquences : tuple et tableau </a> </p>
+		
+		<h2>Représentation des données</h2>
+			
+		<p> <a href="nsi_1_ch2.pdf">  Représentation des données en machine  </a> </p>
+		<p> <a class="video" href="https://youtube.com/channel/UCO0N4ExyrTAh4UdC14CZ5hQ">  Des vidéos pour mieux comprendre le binaire, l'hexadécimal ...  </a> </p>
+		
+		
+		
+		
+		<h2>Les dictionnaires Python</h2>
+		
+		<p> <a href="nsi_1_ch3.pdf">  Le cours et les savoir-faire  </a> </p>
+		
+
+		<h2>Algorithmie</h2>
+		
+		<p> <a href="nsi_1_ch4.pdf", target="_blank"> Les bases de l'algorithmie </a> </p>
+		
+		
+		<h2>Architecture matérielle</h2>
+		
+		<p> <a href="nsi_1_ch5.pdf", target="_blank">  Le cours et les savoir-faire </a> </p>
+		
+			
+			
+			
+		<h2>Liste par compréhension</h2>
+		
+		
+		
+		<p> <a href="nsi_1_ch6.pdf", target="_blank">  Le cours  </a> </p>
+		
+		
+		<h2>HTML et CSS</h2>
+		
+		
+		
+		<p> <a href="nsi_1_ch7.pdf", target="_blank">  Le cours  </a> </p>
+		<p> <a class="td" href="projets/index.html", target="_blank">  Les projets  </a> </p>
+		
+		
+		
+		<h2>Système d'exploitation</h2>
+		
+		
+		
+		<p> <a href="nsi_1_linux_1.pdf", target="_blank">  Système d'exploitation Linux: définition </a> </p>
+		<p> <a href="nsi_1_linux_2.pdf", target="_blank">  Lignes de commande </a> </p>
+		<p> <a href="nsi_1_td_linux_1.pdf", target="_blank">  Découvrir un émulateur en ligne </a> </p>
+		<p> <a class = "td" href="nsi_1_td_linux_2.pdf", target="_blank">  TD sur les lignes de commandes </a> </p>
+		<p> <a class = "td" href="nsi_1_td_linux_3.pdf", target="_blank"> TD sur la gestion des droits</a> </p>
+		
+		<h2>Les données structurées</h2>
+		
+		
+		
+		<p> <a href="nsi_1_donnees_1.pdf", target="_blank">  Lire, écrire et modifier un fichier txt avec python  </a> </p>
+		<p> <a href="nsi_1_donnees_2.pdf", target="_blank">  Les fichiers .csv  </a> </p>
+		<p> <a href="nsi_1_donnees_3.pdf", target="_blank">  Importer des données depuis un fichier csv  </a> </p>
+		<p> <a href="nsi_1_donnees_4.pdf", target="_blank">  Savoir rechercher et trier  </a> </p>
+		<p> <a href="nsi_1_donnees_5.pdf", target="_blank">  Savoir réunir et fusionner deux tables  </a> </p>
+		
+		<h2>Les réseaux</h2>
+		
+		
+		
+		<p> <a href="nsi_1_reseaux_1.pdf", target="_blank">  Intro sur les réseaux </a> </p>
+		<p> <a href="nsi_1_reseaux_2.pdf", target="_blank">  Le modèle OSI et les 7 couches </a> </p>
+		<p> <a href="nsi_1_reseaux_3.pdf", target="_blank">  Comprendre les adresses IP </a> </p>
+		<p> <a href="nsi_1_reseaux_4.pdf", target="_blank">  Le modèle TCP/IP </a> </p>
+		<p> <a class="td" href="nsi_1_reseaux_5.pdf", target="_blank">  Simuler un réseau</a> </p>
+		<p> <a class="autre"  href="nsi_1_reseaux_6.pdf", target="_blank">  Annexes </a> </p>
+	
+		<h2>Intéraction Homme-MAchine</h2>
+		
+		
+		
+		<p> <a href="nsi_1_ihm_1.pdf", target="_blank">  Intro </a> </p>
+		<p> <a href="nsi_1_ihm_2.pdf", target="_blank">  HTML, CSS et formualires </a> </p>
+		<p> <a href="nsi_1_ihm_3.pdf", target="_blank">  Le JavaScript </a> </p>
+		<p> <a href="nsi_1_ihm_4.pdf", target="_blank">  Requête HTTP </a> </p>
+		<p> <a class="autre" href="nsi_1_ihm_5.pdf", target="_blank">  Exemple de formulaire</a> </p>
+		<p> <a class="autre" href="nsi_1_ihm_6.pdf", target="_blank">  Hors programme: Développement web côté serveur</a> </p>
+	
+	</div>
+    
+    <p id="footer">jb duthoit</p>
+  </div>
+  </body>
+</html>
