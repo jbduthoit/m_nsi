@@ -181,6 +181,17 @@ div#contenu_cours a.td
 }
 
 
+div#contenu_cours a.metier
+{
+	color: black ;
+	font-size: 1.17em ;
+	text-decoration: none;
+	margin-left: 35px ;
+	padding-left: 5px ;
+	border-left: 5px solid pink ;
+	
+}
+
 div#contenu_cours a.autre
 {
 	color: black ;
