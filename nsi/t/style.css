@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body
 {
 	margin: 10px 0 ;
@@ -238,3 +239,245 @@ pre span.comment
 
 
 
+=======
+body
+{
+	margin: 10px 0 ;
+	padding: 0 ;
+	text-align: center ;
+	font: 0.8em "Trebuchet MS", helvetica, sans-serif ;
+	background: #DCDFEC;
+}
+
+div#conteneur
+{
+	width: 770px ;
+	margin: 0 auto ;
+	text-align: left ;
+	border: 2px solid #2F4391 ;
+	background: #fff ;
+}
+
+h1#header
+{
+	height: 258px ;
+	background: url(im.png) no-repeat right top ;
+	margin: 0 ;
+}
+
+h1#header a
+{
+	width: 400px ;
+	height: 150px ;
+	display: block ;
+	background: url(titre1nsi.png) no-repeat ;
+	position: relative ;
+	left: 50px ;
+	top: 80px ;
+	text-indent: -5000px ;
+}
+
+ul#menu
+{
+	height: 35px ;
+	margin: 0 ;
+	padding: 0 ;
+	background: url(bg_menu.gif) repeat-x 0 -25px ;
+	list-style-type: none ;
+}
+
+ul#menu li
+{
+	float: left ;
+	text-align: center ;
+}
+
+
+
+
+ul#menu li a
+{
+	width: auto ;
+	padding-left : 10px ;
+	padding-right : 10px;
+	line-height: 25px ;
+	font-size: 1.2em ;
+	font-weight: bold ;
+	letter-spacing: 2px ;
+	color: #fff ;
+	display: block ;
+	text-decoration: none ;
+	border-right: 2px solid #dea ;
+}
+
+ul#menu li a:hover
+{
+	background: url(bg_menu.gif) repeat-x 0 0 ;
+}
+
+
+
+/* div#contenu */
+/* { */
+	/* padding: 0 25px 0 100px ; */
+	/* background: url(bg_menu.gif) no-repeat 15px 15px ; */
+/* } */
+
+div#contenu_cours h2
+{
+	padding-left: 25px ;
+	line-height: 25px ;
+	font-size: 1.4em ;
+	/* background: url(little_apple.gif) no-repeat left bottom ; */
+	color: #2F4391 ;
+	border-bottom: 1px solid #2F4391 ;
+}
+
+div#projet h2
+{
+	padding-left: 32px ;
+	line-height: 25px ;
+	font-size: 1.4em ;
+	background: url(projet_min.jpg) no-repeat left ;
+	color: #black ;
+	border-bottom: 1px solid #black ;
+}
+
+div#projet p
+{
+	text-align: justify ;
+	text-indent: 2em ;
+	line-height: 1.7em ;
+}
+
+div#projet a
+{
+	color: black ;
+	font-size: 1.17em ;
+	text-decoration: none;
+	margin-left: 35px ;
+	padding-left: 5px ;
+	border-left: 5px solid #black  ;
+	
+}
+
+div#contenu_cours h3
+{
+	margin-left: 35px ;
+	padding-left: 5px ;
+	/* border-bottom: 1px solid #2F4391 ; */
+	border-left: 5px solid #7481b5  ;
+	color: #7481b5 ;
+}
+
+div#contenu_cours p
+{
+	text-align: justify ;
+	text-indent: 2em ;
+	line-height: 1.7em ;
+}
+
+div#contenu_cours a
+{
+	color: black ;
+	font-size: 1.17em ;
+	text-decoration: none;
+	margin-left: 35px ;
+	padding-left: 5px ;
+	border-left: 5px solid #7481b5  ;
+	
+}
+
+div#contenu_cours a.qcm
+{
+	color: black ;
+	font-size: 1.17em ;
+	text-decoration: none;
+	margin-left: 35px ;
+	padding-left: 5px ;
+	border-left: 5px solid #7F230D  ;
+	
+}
+
+div#contenu_cours a.video
+{
+	color: black ;
+	font-size: 1.17em ;
+	text-decoration: none;
+	margin-left: 35px ;
+	padding-left: 5px ;
+	border-left: 5px solid orange  ;
+	
+}
+
+
+div#contenu_cours a.td
+{
+	color: black ;
+	font-size: 1.17em ;
+	text-decoration: none;
+	margin-left: 35px ;
+	padding-left: 5px ;
+	border-left: 5px solid green  ;
+	
+}
+
+
+div#contenu_cours a.metier
+{
+	color: black ;
+	font-size: 1.17em ;
+	text-decoration: none;
+	margin-left: 35px ;
+	padding-left: 5px ;
+	border-left: 5px solid pink ;
+	
+}
+
+div#contenu_cours a.autre
+{
+	color: black ;
+	font-size: 1.17em ;
+	text-decoration: none;
+	margin-left: 35px ;
+	padding-left: 5px ;
+	border-left: 5px solid white ;
+	
+}
+
+div#contenu_cours a:hover
+{
+	color: #7481b5 ;
+}
+
+p#footer
+{
+	margin: 0 ;
+	padding-right: 10px ;
+	line-height: 30px ;
+	text-align: right ;
+	color: #7481b5 ;
+}
+
+pre
+{
+	overflow: auto ;
+	background: #dea ;
+	border: 2px solid #9b2 ;
+	padding: 5px 0 0 5px ;
+	font-size: 1.2em ;
+}
+
+pre span
+{
+	color: #560 ;
+}
+
+pre span.comment
+{
+	color: #b30000 ;
+}
+
+
+
+>>>>>>> 256aabb64c8fbc000784496450ad40f94f57b44b
