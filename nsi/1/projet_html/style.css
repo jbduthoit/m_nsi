@@ -6,7 +6,7 @@ html{
 
 header{
     height: 250px; /* hauteur du header à changer en fonction de la photo choisi */
-    background-image: url('images/essai.png');
+    background-image: url("images/essai.PNG");
     text-align:center;
     color: white;
     font-weight: bold;
