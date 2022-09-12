@@ -1,0 +1,47 @@
+INSERT INTO LIVRES
+(id, titre, annee_publi)
+VALUES
+(1,"Les fleurs du mal", 1857),
+(2,"L'étranger", 1942),
+(3,"Les misérables", 1862),
+(4,"Les liaisons dangeureuses", 1782),
+(5,"Le petit prince", 1943),
+(6,"Cyrano de Bergerac", 1897),
+(7,"Les trois mousquetaires",1844),
+(8,"Le comte de Monte-Cristo",1844),
+(9,"La peste", 1947),
+(10,"Notre-Dame de Paris", 1831),
+(11,"Orgueil et préjugés",1813),
+(12,"Oliver Twist",  1839),
+(13,"Le Portrait de Dorian Gray",  1890),
+(14,"L’Ami retrouvé", 1971),
+(15,"Gatsby le Magnifique",  1925);
+
+
+INSERT INTO AUTEURS
+(id_auteur, nom_auteur, prenom_auteur, annee_naiss, pays_naiss)
+VALUES
+(1,'Baudelaire', 'Charles',1821, 'France'),
+(2,'Camus', 'Albert', 1913, 'Algérie'),
+(3,'Hugo', 'Victor',1802, 'France'),
+(4,'Laclos', 'Choderlos de', 1741, 'France'),
+(5,'Saint-Exupéry', 'Antoine de' , 1900, 'France'),
+(6,'Rostand', 'Edmond',1868,'France'),
+(7,'Dumas', 'Alexandre', 1802, 'France'),
+(8,'Austen', 'Jane', 1775, 'Grande-Bretagne'),
+(9,'Dickens', 'Charles', 1812, 'Grande-Bretagne'),
+(10,'Wilde', 'Oscar', 1854, 'Irlande'),
+(11,'Uhlman', 'Fred', 1901, 'Grande-Bretagne'),
+(12,'Fitzgerald', 'Francis Scott', 1896, 'USA'),
+(13, 'Shaffer', 'Mary Ann',1934, 'USA'),
+(14, 'Barrow','Annie',1962,'USA');
+
+
+INSERT INTO PAYS
+(nom_pays, population, superficie)
+VALUES
+('France', 67.5 , 643),
+('Irlande', 5, 70),
+('Grande-Bretagne', 64,229),
+('Algérie', 44, 2382 ),
+('USA',  328 ,9834);
