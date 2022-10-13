@@ -6,3 +6,16 @@ Exo 3.52:
 CFIJHLFETYVITYVLEDFKUREJLEUZTKZFEERZIVLEMIRZFEKFLIEVGVLUVGRXVJGFLICVKIFLMVIGLZJHLZCJJFEKKIZVJGRIFIU
 IVRCGYRSVKZHLVDRZEKVEREKJZFEJFLYRZKVKIFLMVIKFLJCVJDFKJUFEKCRJVTFEUVCVKKIVVJKVTVJKZDGFJJZSCVRDFZEJUVK
 IZVICVJDFKJGRICVLIJVTFEUVCVKKIVZCWRLUIRZKLEUZTKZFEERZIVUZWWVIVEKGFLITYRHLVGFJZKZFEUVCVKKIV
+
+
+mots = ['eddard', 'catelyn', 'robb', 'sansa', 'arya', 'brandon',
+       'rickon', 'theon', 'rorbert', 'cersei', 'tywin', 'jaime',
+        'tyrion', 'shae', 'bronn', 'lancel', 'joffrey', 'sandor',
+        'varys', 'renly', 'a' ]
+
+
+Livre_recettes={'gateau chocolat': ['chocolat','oeuf','farine','sucre','beurre'],
+'gateau yaourt': ['yaourt','oeuf','farine','sucre'],
+'crepes': ['oeuf','farine','lait'],
+'quatre-quarts': ['oeuf','farine','beurre','sucre'],
+'kouign amann': ['farine','beurre','sucre']}
