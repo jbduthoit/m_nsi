@@ -1,0 +1,28 @@
+from socket import socket, AF_INET, SOCK_STREAM
+
+reponse = b"""HTTP/1.1 200 OK
+host: mon site local
+Content-Type: text/html \n
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+<title> Ma page </title>
+</head>
+<body>
+<h1> Bonjour </h1>
+<h2> Le test est concluant !! </h2>
+</body>
+</html>"""
+
+s = socket(AF_INET, SOCK_STREAM)
+s.bind(("",13450))  # le programme python \'ecoute sur le port 13450
+
+s.listen(5)   # 5 connexions maximales
+while True:
+    connexion, adresse = s.accept()
+    print('Connexion de',adresse)
+    req = connexion.recv(1024).decode()
+    if req != "":
+        print(req)
+        connexion.send(reponse)
+    connexion.close()
