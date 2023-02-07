@@ -1,0 +1,56 @@
+# Accès au service OpenWeatherMap
+
+# Mettre ici la clé obtenue par le professeur à partir de ce lien :
+#     https://home.openweathermap.org/users/sign_up
+# Les élèves peuvent aussi obtenir eux-même une clé (nécessite l'accès à leur mail).
+cle = ''
+ville = ''
+
+import requests
+import json
+
+from pyowm.owm import OWM
+owm = OWM(cle)
+
+def test_api(cle, ville):
+    """ Afficher la météo d'une ville """
+    # Obtenir l'objet 'manager' pour gérer une session avec le site OpenWeatherMaps
+    manager = owm.weather_manager()
+    # Obtenir la météo d'une ville et l'afficher
+    observation = manager.weather_at_place(ville)
+    print(observation.weather.status, observation.weather.temperature('celsius'))
+
+def previsions(owm, ville, pays):
+    """ Retourne les prévisions météo (temps et température) d'une ville """
+    # Obtenir l'accès au registre des villes
+    reg = owm.city_id_registry()
+    # Obtenir les informations sur la ou les villes de ce nom
+    liste = reg.locations_for(ville, pays)
+    if len(liste) == 0: # ville inconnue
+        print(ville+' inconnue !')
+        return ([], [])
+    # Extraire la latitude et longitude de la première ville de la liste
+    latitude = liste[0].lat
+    longitude = liste[0].lon
+
+    # Obtenir l'objet 'manager' pour gérer une session avec le site OpenWeatherMap
+    manager = owm.weather_manager()
+    # Obtenir les prévisions pour les coordonnées données
+    previsions = manager.one_call(latitude, longitude)
+
+    ### COMPLÉTER ici pour créer un tableau des prévisions de températures
+    ### et un tableau des prévisions du temps (couvert, ensoleillé, ...)
+    ### Ces informations sont dans le tableau previsions.forecast_daily.
+    ### Chaque élément de ce tableau correspond aux prévisions d'une journée.
+    ### Ces prévisions sont un objet qui contient deux attributs qui nous intéressent :
+    ###     previsions.forecast_daily[i].temperature('celsius') : température en ºC
+    ###     previsions.forecast_daily[i].status : météo sous forme de chaine de caractères
+    temperatures = []
+    meteo = []
+    # ...à compléter...
+
+   
+    return (temperatures, meteo)
+
+
+
