@@ -193,6 +193,19 @@ div#contenu_cours a.metier
 	
 }
 
+div#contenu_cours a.bac
+{
+	color: black ;
+	font-size: 1.17em ;
+	text-decoration: none;
+	margin-left: 35px ;
+	padding-left: 5px ;
+	border-left: 5px solid red ;
+	
+}
+
+
+
 div#contenu_cours a.autre
 {
 	color: black ;
