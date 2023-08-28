@@ -7,6 +7,7 @@ Accès par matière et niveau: :-)
 
 |[Maths Seconde](m/2/index.html)|
 |[Maths Spécialité première](m/1/index.html)|
+|[Maths Spécialité terminale](m/t/index.html)|
 |[NSI Spécialité première](nsi/1/index.html)|
 |[NSI Spécialité terminale](nsi/t/index.html)|
 |[SNT](snt/index.html)|
