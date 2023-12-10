@@ -101,3 +101,20 @@ villespays = {
     "Canada": ["Toronto"],
     "Bangladesh": ["Dhaka"],
 }
+
+
+dico_livres = {
+'id' : [1, 2, 14, 4, 5, 8, 7, 15, 9, 10],
+'titre' : ['1984', 'Dune', 'Fondation', 'Ubik', 'Blade Runner',
+'Les Robots', 'Ravage', 'Chroniques martiennes',
+'Dragon déchu', 'Fahrenheit 451'],
+'auteur' : ['Orwell', 'Herbert', 'Asimov',
+'K.Dick', 'K.Dick', 'Asimov', 'Barjavel',
+'Bradbury', 'Hamilton', 'Bradbury'],
+'ann_pub' : [1949, 1965, 1951, 1953,1968,
+1950, 1943, 1950, 2003, 1953],
+'note' : [10, 8, 9, 9, 8, 10, 6, 7, 8, 8]
+}
+
+a = dico_livres['note']
+b = dico_livres['titre'][2]
