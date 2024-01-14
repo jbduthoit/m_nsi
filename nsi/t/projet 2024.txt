@@ -1,0 +1,36 @@
+TOM
+pas d'enregistrement dans la bdd 15
+
+NOA
+Bien 20
+
+MAELLE
+Bien mais sobre. Affichage de l'id, sous forme de tuple, bof 19
+
+ARTHUR 
+Bien , original 20
+
+
+Hélio 
+20 Dommage qu'il faille deux chaps pour la recherche Bonne charte graphique
+
+
+Nathan
+Ne fonctionne pas. pas de base de donnée 10
+
+Sidoine
+14 pb dans le code
+
+
+Mathys 
+Bien 20
+
+Pierrick
+
+Mauvaise utilisation des {{url_for}}  10
+
+Gauthier
+Bien . Pas de retour après avoir ajouté qq un . Recherche uniq avec prénom 19
+
+
+
