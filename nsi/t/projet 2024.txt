@@ -5,14 +5,14 @@ NOA
 Bien 20
 
 MAELLE
-Bien mais sobre. Affichage de l'id, sous forme de tuple, bof 19
+Bien mais sobre. Affichage de l'id, sous forme de tuple, bof 18
 
 ARTHUR 
 Bien , original 20
 
 
 Hélio 
-20 Dommage qu'il faille deux chaps pour la recherche Bonne charte graphique
+20 Dommage qu'il faille deux champs pour la recherche Bonne charte graphique
 
 
 Nathan
@@ -25,12 +25,24 @@ Sidoine
 Mathys 
 Bien 20
 
-Pierrick
 
+Romain
+Bien mais sobre 20
+
+Pierrick
 Mauvaise utilisation des {{url_for}}  10
 
 Gauthier
 Bien . Pas de retour après avoir ajouté qq un . Recherche uniq avec prénom 19
 
 
+Colin
+Bien, mais très sobre. le tableau gle ne fonctionne pas 18
 
+
+Sacha
+Ne fonctionne pas . pb dans la page acceuil.html 10
+
+
+Timothée
+Bien mais pas de confirmation que l enregistrement ait lieu. La recherche ne marche pas 15
