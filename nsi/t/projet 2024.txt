@@ -46,3 +46,8 @@ Ne fonctionne pas . pb dans la page acceuil.html 10
 
 Timothée
 Bien mais pas de confirmation que l enregistrement ait lieu. La recherche ne marche pas 15
+
+
+
+MArceau
+Ajouter un participant : un champ non visible. pas de message confirmation après envoi
