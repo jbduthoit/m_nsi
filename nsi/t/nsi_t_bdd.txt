@@ -1,10 +1,8 @@
-INSERT INTO LIVRES
-(id, titre, annee_publi)
-VALUES
+/* LIVRES */
 (1,"Les fleurs du mal", 1857),
 (2,"L'étranger", 1942),
 (3,"Les misérables", 1862),
-(4,"Les liaisons dangeureuses", 1782),
+(4,"Les liaisons dangereuses", 1782),
 (5,"Le petit prince", 1943),
 (6,"Cyrano de Bergerac", 1897),
 (7,"Les trois mousquetaires",1844),
@@ -17,10 +15,7 @@ VALUES
 (14,"L’Ami retrouvé", 1971),
 (15,"Gatsby le Magnifique",  1925);
 
-
-INSERT INTO AUTEURS
-(id_auteur, nom_auteur, prenom_auteur, annee_naiss, pays_naiss)
-VALUES
+/* AUTEURS */
 (1,'Baudelaire', 'Charles',1821, 'France'),
 (2,'Camus', 'Albert', 1913, 'Algérie'),
 (3,'Hugo', 'Victor',1802, 'France'),
@@ -36,12 +31,14 @@ VALUES
 (13, 'Shaffer', 'Mary Ann',1934, 'USA'),
 (14, 'Barrow','Annie',1962,'USA');
 
-
-INSERT INTO PAYS
-(nom_pays, population, superficie)
-VALUES
+/* PAYS */
 ('France', 67.5 , 643),
 ('Irlande', 5, 70),
 ('Grande-Bretagne', 64,229),
 ('Algérie', 44, 2382 ),
 ('USA',  328 ,9834);
+
+
+/* ECRIRE */
+
+/--> A vous de la créer ! utilisez le net ! */
