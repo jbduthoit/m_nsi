@@ -10,18 +10,17 @@
   
   <body>
   <div id="conteneur">    
-    <h1 id="header"><a href="#" title="Accueil"><span>jb duthoit</span></a></h1>
+   <header id="header">
+  <div class="logo">
+    <img src="im.png" alt="Logo du site">
+    <h1>Spécialité Maths Terminale</h1>
+	<p id="citation"></p>
+  </div>
+ 
+</header>
 
-    <nav>
-      <ul id="menu">
-		<!-- <li><a href="accueil.html">  Accueil  </a></li> -->
-        <li><a href="index.html">  Les cours et savoir-faire  </a></li>
-        <li><a href="python.html">  Python  </a></li>
-        <li><a href="../rien.pdf">  Les maths, ça ne sert à rien ! </a></li>
-		<li> <a href="../../videos.pdf"> Vidéos</a> </li>
-        
-      </ul>
-    </nav>
+
+
     
 	
 	
@@ -29,24 +28,31 @@
 
   <!-- Carte mentale révision -->
   <article class="ressource-card">
-    <a class="ressource-link" href="revision_carte.png" target="_blank">
+    <a class="ressource-link" href="revision_carte.png" target="_blank" rel="noopener">
+	
+	<div class="ressource-thumb">
+        <img src="revision_carte_miniature.png"
+             alt="Carte mentale : Comment réviser une évaluation"
+             class="ressource-img">
+      </div>
       <div class="ressource-text">
         <h2 class="ressource-title">
           Comment réviser pour réussir une évaluation ?
         </h2>
       </div>
 
-      <div class="ressource-thumb">
-        <img src="revision_carte_miniature.png"
-             alt="Carte mentale : Comment réviser une évaluation"
-             class="ressource-img">
-      </div>
+      
     </a>
   </article>
 
   <!-- Affiche 'Sauf à...' -->
   <article class="ressource-card">
-    <a class="ressource-link" href="rien.pdf" target="_blank">
+    <a class="ressource-link" href="rien.pdf" target="_blank"rel="noopener">
+	<div class="ressource-thumb">
+        <img src="rien_miniature.png"
+             alt="Affiche À quoi ça sert d'apprendre ?"
+             class="ressource-img">
+      </div>
       <div class="ressource-text">
         <h2 class="ressource-title">
           À quoi ça sert les Maths ? A rien ?
@@ -54,165 +60,230 @@
     
       </div>
 
-      <div class="ressource-thumb">
-        <img src="rien_miniature.png"
-             alt="Affiche À quoi ça sert d'apprendre ?"
-             class="ressource-img">
-      </div>
+      
     </a>
   </article>
+  
+<article class="ressource-card">
+  <a class="ressource-link" href="video_maths.pdf" target="_blank" rel="noopener">
+    <div class="ressource-thumb">
+      <img src="clap_video.jpg"
+           alt="Miniature : clap de cinéma pour la vidéo de maths"
+           class="ressource-img">
+    </div>
+
+    <div class="ressource-text">
+      <h2 class="ressource-title">Vidéos</h2>
+    </div>
+  </a>
+</article>
 
 </section>
 
 
+<div id="contenu_cours">
 
-    <div id="contenu_cours">
-	
-		<h2>Les sujets zéros de 2024</h2>
-			
-		<p> <a href="bac_2024_0.pdf">  Les sujets zéros ! </a> </p>
-	
-		<h2>Chapitre 0: Retour sur les fonctions, les suites, et quelques raisonnements vus en classe de première</h2>
-			
-		<p> <a href="m_t_rappels_fonctions.pdf">  Retour sur les fonctions de première </a> </p>
-		<p> <a href="m_t_rappels_suites.pdf">  Retour sur les suites de première </a> </p>
-		<p> <a href="m_t_raisonnement_1.pdf">  Retour sur les raisonnements étudiés en première </a> </p>
-	
-		<h2>Chapitre 1: Le raisononnement par récurrence</h2>
-	
-	
-		<p> <a href="m_t_raisonnement_2.pdf">  Le raisonnement par récurrence </a> </p>
-		
-		
-		<h2>Chapitre 2: Les suites</h2>
-		
-		<p> <a href="m_t_suites_1.pdf", target="_blank">  Limites de suites</a> </p>
-		<p> <a href="m_t_suites_2.pdf", target="_blank"> Opérations sur les limites </a> </p>
-		<p> <a href="m_t_suites_3.pdf", target="_blank">  Limites et comparaisons</a> </p>
-		<p> <a href="m_t_suites_4.pdf", target="_blank">  Suites majorées, minorées, bornées, Monotonie et convergence </a> </p>
-		<p> <a class="autre" href="m_t_suites_5.pdf", target="_blank">  Des exos pour faire le point </a> </p>
-		
-		<h2>Chapitre 3: Géométrie dans l'espace</h2>
-		
-		<p> <a href="m_t_espace_1.pdf", target="_blank">  Vecteurs dans l'espace </a> </p>
-		<p> <a href="m_t_espace_2.pdf", target="_blank">  Droites et plans dans l'espace </a> </p>
-		<p> <a href="m_t_espace_3.pdf", target="_blank">  Position relative de droites et de plans dans l'espace</a> </p>
-		<p> <a href="m_t_espace_4.pdf", target="_blank">  Bases et repère dans l'espace </a> </p>
-		<p> <a href="m_t_espace_5.pdf", target="_blank"> Représentation paramétrique d'une droite dans l'espace</a> </p>
-		<p> <a class="autre" href="m_t_espace_6.pdf", target="_blank">  Exercices à faire en autonomie </a> </p>
-		
-		
-		<h2>Chapitre 4: Compléments sur la dérivation</h2>
-		
-		<p> <a href="m_t_derivation_3.pdf", target="_blank">  Complément de dérivation </a> </p>
-		
-		
-		<h2>Chapitre 5: Limites de fonctions</h2>
-		
-		<p> <a href="m_t_limites_1.pdf", target="_blank">  Limites en l'infini </a> </p>
-		<p> <a href="m_t_limites_2.pdf", target="_blank">  Limites en un réel </a> </p>
-		<p> <a href="m_t_limites_3.pdf", target="_blank">  Opérations sur les limites </a> </p>
-		<p> <a href="m_t_limites_4.pdf", target="_blank">  Limites et comparaison </a> </p>
-		
-		<h2>Chapitre 6: La convexité</h2>
-		
-		<p> <a href="m_t_convexite_1.pdf", target="_blank">  Convexité d'une fonction </a> </p>
-	
-		<h2>Chapitre 7: La continuité</h2>
-		
-		<p> <a href="m_t_continuite_1.pdf", target="_blank">  Continuité d'une fonction </a> </p>
-		<p> <a href="m_t_continuite_2.pdf", target="_blank">  Théorème des valeurs intermédiaires </a> </p>
-		<p> <a class="td" href="dichotomiejb.html", target="_blank">  La dichotomie, activités géogébra </a> </p>
-		<p> <a href="m_t_continuite_3.pdf", target="_blank">  Application  à l'étude de suites</a> </p>
-		
-		<h2>Chapitre 8: La fonction logarithme népérien</h2>
-		
-		<p> <a href="m_t_ln_1.pdf", target="_blank">  Définition de la fonction logarithme népérien </a> </p>
-		<p> <a href="m_t_ln_2.pdf", target="_blank">  Relations fonctionnelles du logarithme népérien </a> </p>
-		<p> <a href="m_t_ln_3.pdf", target="_blank">  Limites avec la fonction ln</a> </p>
-		
-		
-		<h2>Chapitre 9: Dénombrement</h2>
-		
-		
-		<p> <a href="m_t_denombrement_1.pdf", target="_blank">  Le principe du dénombrement </a> </p>
-		<p> <a href="m_t_denombrement_2.pdf", target="_blank">  Arrangements et permutations </a> </p>
-		<p> <a href="m_t_denombrement_3.pdf", target="_blank">  Combinaisons </a> </p>
-		<p> <a class="qcm" href="https://doctools.dgpad.net/exam.php?datas=eyJiYXNlaWQiOiIxWHhYckM2cFFlZzlWdzNVa1I1NzJFTFY0VUV1Y3Q5Q0pkQkJFNGhQX3NubyIsImRlX2Jhc2UiOiIxNWtnV0tfQmNXenhnSER5NjlrVDUyc0ZacmpUSmNsSDg2V19kMWFhNERxTSIsImlkIjoiMW81MTdCbWJQQzBKOU9MdnZqZFhmbGplQnRNanVfXzdGa051TEZURWZTS28iLCJ1c2VycyI6IkFub255bWUifQ==", target="_blank">  QCM entraînement </a> </p>
-		
-		
-		<h2>Ckapitre 10: Succession d'épreuves indépendantes et loi binomiale </h2>
-		
-
-		<p> <a href="m_t_loi_binom_1.pdf", target="_blank">  Epreuve de Bernoulli et succession d'épreuves  </a> </p>
-		<p> <a href="m_t_loi_binom_2.pdf", target="_blank">  loi binomiale </a> </p>
-		
-
-
-		<h2>Chapitre 11 : Equation différentielle et primitive</h2>
-		
-		<p> <a href="m_t_primitive_1.pdf", target="_blank">  Equation différentielles et primitives </a> </p>
-		<p> <a href="m_t_primitive_2.pdf", target="_blank">  Recherche de primitives d'une fonction </a> </p>
-		<p> <a href="m_t_primitive_3.pdf", target="_blank"> Equations différentielles </a> </p>
-		
-		
-		
-		<h2>Chapitre 12: Fonctions circulaires</h2>
-		
-		
-		<p> <a href="m_t_circulaires_0.pdf", target="_blank">  Rappels de première </a> </p>
-		<p> <a href="m_t_circulaires_1.pdf", target="_blank">  Définitions et propriétés </a> </p>
-		<p> <a href="m_t_circulaires_2.pdf", target="_blank">  Equations trigonométriques </a> </p>
-		
-		
-		<h2>Chapitre 13: Calcul intégral</h2>
-		
-		
-		<p> <a href="m_t_int_0.pdf", target="_blank">  Calcul intégral et GO </a> </p>
-		<p> <a href="m_t_int_1.pdf", target="_blank">  Définitions </a> </p>
-		<p> <a href="m_t_int_2.pdf", target="_blank">  Intégrales et primitives </a> </p>
-		<p> <a href="m_t_int_3.pdf", target="_blank"> Propriétés </a> </p>
-		<p> <a href="m_t_int_4.pdf", target="_blank"> Applications du calcul intégral </a> </p>
-		
-		
-		
-		
-		
-		
-		
-	
-		
-		<h2> Les variables aléatoires </h2>
-		
-		<p> <a href="m_t_va_0.pdf", target="_blank">  Rappels  </a> </p>
-		<p> <a href="m_t_va_1.pdf", target="_blank">  Opérations sur les variables aléatoires  </a> </p>
-		<p> <a href="m_t_va_2.pdf", target="_blank">  Echantillon d'une loi de probabilité </a> </p>
-		<p> <a href="m_t_va_3.pdf", target="_blank">  Loi des grands nombres </a> </p>
-		
-		
-		
-		<h2> Orthogonalité dans l'espace</h2>
-		
-		<p> <a href="m_t_ortho_0.pdf", target="_blank">  Rappels sur le produit scalaire dans le plan </a> </p>
-		<p> <a href="m_t_ortho_1.pdf", target="_blank">  Produit scalaire dans l'espace  </a> </p>
-		<p> <a href="m_t_ortho_2.pdf", target="_blank">  Orthogonalité de droites et de plans </a> </p>
-		<p> <a href="m_t_ortho_3.pdf", target="_blank">   Produit sclaire dans un repère de l'espace </a> </p>
-		<p> <a href="m_t_ortho_4.pdf", target="_blank">   Vecteur normal  </a> </p>
-		<p> <a href="m_t_ortho_5.pdf", target="_blank">   Applications du vecteur normal  </a> </p>
-		
-		<h2>Python</h2>
-		
-		
-		<p> <a href="m_t_python_0.pdf", target="_blank">  Les tableaux en python (objet de type list) </a> </p>
-		<p> <a href="m_t_python_1.pdf", target="_blank">  Les suites et python </a> </p>
-		<p> <a href="m_t_python_2.pdf", target="_blank">  Les probas et python </a> </p>
-		<p> <a href="m_t_python_3.pdf", target="_blank">  Les fonctions et python </a> </p>
-		<p> <a href="m_t_python_4.pdf", target="_blank">  Les intégrales et python </a> </p>
-		
-		
+  <details class="chapitre">
+    <summary>Les sujets zéros de 2024</summary>
+    <div class="details-content">
+      <p><a href="bac_2024_0.pdf" target="_blank">Les sujets zéros !</a></p>
     </div>
-    
-    <p id="footer">jb duthoit</p>
-  </div>
+  </details>
+
+  <details class="chapitre">
+    <summary>Chapitre 0 : Retour sur les fonctions, les suites, et quelques raisonnements vus en classe de première</summary>
+    <div class="details-content">
+      <p><a href="m_t_rappels_fonctions.pdf" target="_blank">Retour sur les fonctions de première</a></p>
+      <p><a href="m_t_rappels_suites.pdf" target="_blank">Retour sur les suites de première</a></p>
+      <p><a href="m_t_raisonnement_1.pdf" target="_blank">Retour sur les raisonnements étudiés en première</a></p>
+    </div>
+  </details>
+
+  <details class="chapitre">
+    <summary>Chapitre 1 : Le raisonnement par récurrence</summary>
+    <div class="details-content">
+      <p><a href="m_t_raisonnement_2.pdf" target="_blank">Le raisonnement par récurrence</a></p>
+    </div>
+  </details>
+
+  <details class="chapitre">
+    <summary>Chapitre 2 : Les suites</summary>
+    <div class="details-content">
+      <p><a href="m_t_suites_1.pdf" target="_blank">Limites de suites</a></p>
+      <p><a href="m_t_suites_2.pdf" target="_blank">Opérations sur les limites</a></p>
+      <p><a href="m_t_suites_3.pdf" target="_blank">Limites et comparaisons</a></p>
+      <p><a href="m_t_suites_4.pdf" target="_blank">Suites majorées, minorées, bornées, Monotonie et convergence</a></p>
+      <p><a class="autre" href="m_t_suites_5.pdf" target="_blank">Des exos pour faire le point</a></p>
+    </div>
+  </details>
+
+  <details class="chapitre">
+    <summary>Chapitre 3 : Géométrie dans l'espace</summary>
+    <div class="details-content">
+      <p><a href="m_t_espace_1.pdf" target="_blank">Vecteurs dans l'espace</a></p>
+      <p><a href="m_t_espace_2.pdf" target="_blank">Droites et plans dans l'espace</a></p>
+      <p><a href="m_t_espace_3.pdf" target="_blank">Position relative de droites et de plans dans l'espace</a></p>
+      <p><a href="m_t_espace_4.pdf" target="_blank">Bases et repère dans l'espace</a></p>
+      <p><a href="m_t_espace_5.pdf" target="_blank">Représentation paramétrique d'une droite dans l'espace</a></p>
+      <p><a class="autre" href="m_t_espace_6.pdf" target="_blank">Exercices à faire en autonomie</a></p>
+    </div>
+  </details>
+
+  <details class="chapitre">
+    <summary>Chapitre 4 : Compléments sur la dérivation</summary>
+    <div class="details-content">
+      <p><a href="m_t_derivation_3.pdf" target="_blank">Complément de dérivation</a></p>
+    </div>
+  </details>
+
+  <details class="chapitre">
+    <summary>Chapitre 5 : Limites de fonctions</summary>
+    <div class="details-content">
+      <p><a href="m_t_limites_1.pdf" target="_blank">Limites en l'infini</a></p>
+      <p><a href="m_t_limites_2.pdf" target="_blank">Limites en un réel</a></p>
+      <p><a href="m_t_limites_3.pdf" target="_blank">Opérations sur les limites</a></p>
+      <p><a href="m_t_limites_4.pdf" target="_blank">Limites et comparaison</a></p>
+    </div>
+  </details>
+
+  <details class="chapitre">
+    <summary>Chapitre 6 : La convexité</summary>
+    <div class="details-content">
+      <p><a href="m_t_convexite_1.pdf" target="_blank">Convexité d'une fonction</a></p>
+    </div>
+  </details>
+
+  <details class="chapitre">
+    <summary>Chapitre 7 : La continuité</summary>
+    <div class="details-content">
+      <p><a href="m_t_continuite_1.pdf" target="_blank">Continuité d'une fonction</a></p>
+      <p><a href="m_t_continuite_2.pdf" target="_blank">Théorème des valeurs intermédiaires</a></p>
+      <p><a class="td" href="dichotomiejb.html" target="_blank">La dichotomie, activités géogébra</a></p>
+      <p><a href="m_t_continuite_3.pdf" target="_blank">Application à l'étude de suites</a></p>
+    </div>
+  </details>
+
+  <details class="chapitre">
+    <summary>Chapitre 8 : La fonction logarithme népérien</summary>
+    <div class="details-content">
+      <p><a href="m_t_ln_1.pdf" target="_blank">Définition de la fonction logarithme népérien</a></p>
+      <p><a href="m_t_ln_2.pdf" target="_blank">Relations fonctionnelles du logarithme népérien</a></p>
+      <p><a href="m_t_ln_3.pdf" target="_blank">Limites avec la fonction ln</a></p>
+    </div>
+  </details>
+
+  <details class="chapitre">
+    <summary>Chapitre 9 : Dénombrement</summary>
+    <div class="details-content">
+      <p><a href="m_t_denombrement_1.pdf" target="_blank">Le principe du dénombrement</a></p>
+      <p><a href="m_t_denombrement_2.pdf" target="_blank">Arrangements et permutations</a></p>
+      <p><a href="m_t_denombrement_3.pdf" target="_blank">Combinaisons</a></p>
+      <p><a class="qcm" href="https://doctools.dgpad.net/exam.php?datas=eyJiYXNlaWQiOiIxWHhYckM2cFFlZzlWdzNVa1I1NzJFTFY0VUV1Y3Q5Q0pkQkJFNGhQX3NubyIsImRlX2Jhc2UiOiIxNWtnV0tfQmNXenhnSER5NjlrVDUyc0ZacmpUSmNsSDg2V19kMWFhNERxTSIsImlkIjoiMW81MTdCbWJQQzBKOU9MdnZqZFhmbGplQnRNanVfXzdGa051TEZURWZTS28iLCJ1c2VycyI6IkFub255bWUifQ==" target="_blank">QCM entraînement</a></p>
+    </div>
+  </details>
+
+  <details class="chapitre">
+    <summary>Chapitre 10 : Succession d'épreuves indépendantes et loi binomiale</summary>
+    <div class="details-content">
+      <p><a href="m_t_loi_binom_1.pdf" target="_blank">Epreuve de Bernoulli et succession d'épreuves</a></p>
+      <p><a href="m_t_loi_binom_2.pdf" target="_blank">Loi binomiale</a></p>
+    </div>
+  </details>
+
+  <details class="chapitre">
+    <summary>Chapitre 11 : Équation différentielle et primitive</summary>
+    <div class="details-content">
+      <p><a href="m_t_primitive_1.pdf" target="_blank">Equation différentielles et primitives</a></p>
+      <p><a href="m_t_primitive_2.pdf" target="_blank">Recherche de primitives d'une fonction</a></p>
+      <p><a href="m_t_primitive_3.pdf" target="_blank">Equations différentielles</a></p>
+    </div>
+  </details>
+
+  <details class="chapitre">
+    <summary>Chapitre 12 : Fonctions circulaires</summary>
+    <div class="details-content">
+      <p><a href="m_t_circulaires_0.pdf" target="_blank">Rappels de première</a></p>
+      <p><a href="m_t_circulaires_1.pdf" target="_blank">Définitions et propriétés</a></p>
+      <p><a href="m_t_circulaires_2.pdf" target="_blank">Équations trigonométriques</a></p>
+    </div>
+  </details>
+
+  <details class="chapitre">
+    <summary>Chapitre 13 : Calcul intégral</summary>
+    <div class="details-content">
+      <p><a href="m_t_int_0.pdf" target="_blank">Calcul intégral et GO</a></p>
+      <p><a href="m_t_int_1.pdf" target="_blank">Définitions</a></p>
+      <p><a href="m_t_int_2.pdf" target="_blank">Intégrales et primitives</a></p>
+      <p><a href="m_t_int_3.pdf" target="_blank">Propriétés</a></p>
+      <p><a href="m_t_int_4.pdf" target="_blank">Applications du calcul intégral</a></p>
+    </div>
+  </details>
+
+  <details class="chapitre">
+    <summary>Les variables aléatoires</summary>
+    <div class="details-content">
+      <p><a href="m_t_va_0.pdf" target="_blank">Rappels</a></p>
+      <p><a href="m_t_va_1.pdf" target="_blank">Opérations sur les variables aléatoires</a></p>
+      <p><a href="m_t_va_2.pdf" target="_blank">Échantillon d'une loi de probabilité</a></p>
+      <p><a href="m_t_va_3.pdf" target="_blank">Loi des grands nombres</a></p>
+    </div>
+  </details>
+
+  <details class="chapitre">
+    <summary>Orthogonalité dans l'espace</summary>
+    <div class="details-content">
+      <p><a href="m_t_ortho_0.pdf" target="_blank">Rappels sur le produit scalaire dans le plan</a></p>
+      <p><a href="m_t_ortho_1.pdf" target="_blank">Produit scalaire dans l'espace</a></p>
+      <p><a href="m_t_ortho_2.pdf" target="_blank">Orthogonalité de droites et de plans</a></p>
+      <p><a href="m_t_ortho_3.pdf" target="_blank">Produit scalaire dans un repère de l'espace</a></p>
+      <p><a href="m_t_ortho_4.pdf" target="_blank">Vecteur normal</a></p>
+      <p><a href="m_t_ortho_5.pdf" target="_blank">Applications du vecteur normal</a></p>
+    </div>
+  </details>
+
+  <details class="chapitre">
+    <summary>Python</summary>
+    <div class="details-content">
+      <p><a href="m_t_python_0.pdf" target="_blank">Les tableaux en python (objet de type list)</a></p>
+      <p><a href="m_t_python_1.pdf" target="_blank">Les suites et python</a></p>
+      <p><a href="m_t_python_2.pdf" target="_blank">Les probas et python</a></p>
+      <p><a href="m_t_python_3.pdf" target="_blank">Les fonctions et python</a></p>
+      <p><a href="m_t_python_4.pdf" target="_blank">Les intégrales et python</a></p>
+    </div>
+  </details>
+
+</div>
+
+
+
+<script>
+(async function () {
+  const el = document.getElementById('citation');
+  if (!el) return;
+
+  // Petit fallback au cas où le fichier est introuvable
+  const fallback = [
+    "Les mathématiques sont la poésie de la logique. — Albert Einstein",
+    "Faire des mathématiques, c’est apprendre à raisonner juste. — Henri Poincaré"
+  ];
+
+  try {
+    const resp = await fetch('citations.txt', { cache: 'no-store' });
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const txt = await resp.text();
+
+    const lines = txt
+      .split(/\r?\n/)
+      .map(s => s.trim())
+      .filter(s => s && !s.startsWith('#'));
+
+    const pool = lines.length ? lines : fallback;
+    el.textContent = pool[Math.floor(Math.random() * pool.length)];
+  } catch (e) {
+    el.textContent = fallback[Math.floor(Math.random() * fallback.length)];
+  }
+})();
+</script>
+
   </body>
 </html>
