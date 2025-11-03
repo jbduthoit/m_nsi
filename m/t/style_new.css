@@ -317,8 +317,8 @@ div#contenu_cours a.metier {
 
 /* miniature à gauche */
 .miniature {
-  width: 52px;
-  height: 52px;
+  width: 62px;
+  height: 62px;
   object-fit: cover;
   border-radius: 8px;             /* angles doux */
   border: none;                   /* plus de bordure bleue */
