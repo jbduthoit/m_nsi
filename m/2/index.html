@@ -1,150 +1,274 @@
-
-<!DOCTYPE html">
+<!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mathématique en seconde </title>
 
-	<link href="style.css" rel="stylesheet">
+  <!-- Nouveau style (remplace l'ancien style.css) -->
+  <link href="style_new.css" rel="stylesheet">
+</head>
 
-    <title>Maths et NSI</title>
-  </head>
+<body>
+  <div id="conteneur">
+
+    <header id="header" role="banner">
+      <div class="logo">
+        <!-- Optionnel : laissez im.png si vous avez un logo, sinon supprimez la balise <img>. -->
+        <img src="im.png" alt="Logo du site" class="site-logo">
+        <div class="site-titles">
+          <h1>Maths en seconde</h1>
+          <p id="citation" class="citation" aria-live="polite"></p>
+        </div>
+      </div>
+    </header>
+	
+<section class="ressources-grid">
+
+  <!-- Carte mentale révision -->
+  <article class="ressource-card">
+    <a class="ressource-link" href="revision_carte.png" target="_blank" rel="noopener">
+	
+	<div class="ressource-thumb">
+        <img src="revision_carte_miniature.png"
+             alt="Carte mentale : Comment réviser une évaluation"
+             class="ressource-img">
+      </div>
+      <div class="ressource-text">
+        <h2 class="ressource-title">
+          Comment réviser pour réussir une évaluation ?
+        </h2>
+      </div>
+
+      
+    </a>
+  </article>
+
+  <!-- Affiche 'Sauf à...' -->
+  <article class="ressource-card">
+    <a class="ressource-link" href="rien.pdf" target="_blank"rel="noopener">
+	<div class="ressource-thumb">
+        <img src="rien_miniature.png"
+             alt="Affiche À quoi ça sert d'apprendre ?"
+             class="ressource-img">
+      </div>
+      <div class="ressource-text">
+        <h2 class="ressource-title">
+          À quoi ça sert les Maths ? A rien ?
+        </h2>
+    
+      </div>
+
+      
+    </a>
+  </article>
   
-  <body>
-  <div id="conteneur">    
-    <h1 id="header"><a href="#" title="Accueil"><span>Colored Design</span></a></h1>
+<!-- <article class="ressource-card"> -->
+  <!-- <a class="ressource-link" href="video_maths.pdf" target="_blank" rel="noopener"> -->
+    <!-- <div class="ressource-thumb"> -->
+      <!-- <img src="clap_video.jpg" -->
+           <!-- alt="Miniature : clap de cinéma pour la vidéo de maths" -->
+           <!-- class="ressource-img"> -->
+    <!-- </div> -->
 
-    <nav>
-      <ul id="menu">
-		<!-- <li><a href="accueil.html">  Accueil  </a></li> -->
-        <li><a href="index.html">  Les cours et savoir-faire  </a></li>
-        <li><a href="python.html">  Python  </a></li>
-        <li><a href="../rien.pdf">  Les maths, ça ne sert à rien !</a></li>
-        <li> <a href="../../videos.pdf"> Vidéos</a> </li>
-      </ul>
-    </nav>
-    
-    <div id="contenu_cours">
-		<h2>Chapitre 1 :Nombres et intervalles</h2>
-			
-		<p> <a href="m_2_ch1_1.pdf">  Les ensembles de nombres  </a> </p>
-		<p> <a class="qcm" href="https://doctools.dgpad.net/exam.php?datas=eyJiYXNlaWQiOiIxWHhYckM2cFFlZzlWdzNVa1I1NzJFTFY0VUV1Y3Q5Q0pkQkJFNGhQX3NubyIsImRlX2Jhc2UiOiIxNWtnV0tfQmNXenhnSER5NjlrVDUyc0ZacmpUSmNsSDg2V19kMWFhNERxTSIsImlkIjoiMVlWRV9mSnJ1YkxoQzlRMl9VMkxQRXZ4YzRiYmZ0Qk5EZjJhaTllUjZ3b28iLCJ1c2VycyI6IkFub255bWUifQ=="> QCM pour s'entraîner avant l'IE </a> </p>
-		<p> <a href="m_2_ch1_2.pdf">  Les intervalles  </a> </p>
-		<p> <a href="m_2_ch1_3.pdf">  Les puissances  </a> </p>
-		<p> <a href="m_2_ch1_4.pdf">  Les racines carrées  </a> </p>
-		<p> <a href="m_2_ch1_5.pdf">  La valeur absolue  </a> </p>
-		<p> <a href="m_2_ch1_6.pdf"> Divisibilité et parité </a> </p>
-		<p> <a href="m_2_ch1_7.pdf"> Les nombres premiers </a> </p>
-		
-		<h2>Chapitre 2 :Généralités sur les fonctions</h2>
-			
-		<p> <a href="m_2_generalites_fonctions_1.pdf">  La notion de fonction </a> </p>
-		<p> <a href="m_2_generalites_fonctions_2.pdf">  Courbe représentative de fonction </a> </p>
-		<p> <a class="qcm" href= "https://doctools.dgpad.net/exam.php?datas=eyJiYXNlaWQiOiIxWHhYckM2cFFlZzlWdzNVa1I1NzJFTFY0VUV1Y3Q5Q0pkQkJFNGhQX3NubyIsImRlX2Jhc2UiOiIxNWtnV0tfQmNXenhnSER5NjlrVDUyc0ZacmpUSmNsSDg2V19kMWFhNERxTSIsImlkIjoiMVZCYXo2QUxueWlSLWJRQVptVlllZHpqRV9zalNqZFVkT3RDa3NaTk9NbkUiLCJ1c2VycyI6IkFub255bWUifQ=="> QCM Lectures graphiques ! </a> </p>
-		<p> <a href="m_2_generalites_fonctions_3.pdf">  Fonction paire, fonction impaire </a> </p>
-		<p> <a href="m_2_generalites_fonctions_4.pdf">  Découvrir les fonctions de réference</a> </p>
-		
-		<!-- <p> <a href="m_2_generalites_fonctions_4.pdf">  Variations de fonction </a> </p> -->
-		<!-- <p> <a href="m_2_generalites_fonctions_5.pdf">  Extrema de fonctions</a> </p> -->
-		<!-- <p> <a class = "qcm" href="https://doctools.dgpad.net/exam.php?datas=eyJiYXNlaWQiOiIxWHhYckM2cFFlZzlWdzNVa1I1NzJFTFY0VUV1Y3Q5Q0pkQkJFNGhQX3NubyIsImRlX2Jhc2UiOiIxNWtnV0tfQmNXenhnSER5NjlrVDUyc0ZacmpUSmNsSDg2V19kMWFhNERxTSIsImlkIjoiMXIzbVZBWGxyYVg4Qjh0Mm5TM01lRFFIVHBTNVBTRUEwUkY5eVppUUljRTAiLCJ1c2VycyI6IkFub255bWUifQ=="> Un petit QCM d'auto-évaluation !! </a> </p> -->
-		
-		<h2>Chapitre 3 :Les vecteurs du plan</h2>
-		
-		<p> <a href="vecteurs_1.pdf">Qu'est ce qu'un vecteur ?</a> </p>
-		<p> <a href="vecteurs_2.pdf">Opérations sur les vecteurs</a> </p>
-		<p> <a href="vecteurs_3.pdf">Vecteurs colinéaires</a> </p>
-		<p> <a class="qcm" href= "https://doctools.dgpad.net/exam.php?datas=eyJiYXNlaWQiOiIxWHhYckM2cFFlZzlWdzNVa1I1NzJFTFY0VUV1Y3Q5Q0pkQkJFNGhQX3NubyIsImRlX2Jhc2UiOiIxNWtnV0tfQmNXenhnSER5NjlrVDUyc0ZacmpUSmNsSDg2V19kMWFhNERxTSIsImlkIjoiMWRmNlprS2I4YlNidVlmNTVOaG1EOUNXYTlMdklOOGNhbFZ5bEdKMm02dm8iLCJ1c2VycyI6IkFub255bWUifQ=="> QCM vecteurs ! </a> </p>
-		
-	
-	
-	
-	
-	<h2>Chapitre 5 :Variations et extréma de fonctions</h2>
-		
-		<p> <a href="m_2_variations_1.pdf"> Variations de fonctions </a> </p>
-		<p> <a href="m_2_variations_2.pdf"> Extréma de fonction </a> </p>
-			<p> <a href="m_2_variations_3.pdf"> Variation des fonctions de réference </a> </p>
-	
-	
-	
-		<!-- <h2>Fonctions de réference</h2> -->
-		
-		<!-- <p> <a href="m_2_fonctions_reference_1.pdf"> La fonction carré </a> </p> -->
-		<!-- <p> <a href="m_2_fonctions_reference_2.pdf"> La fonction inverse </a> </p> -->
-		<!-- <p> <a href="m_2_fonctions_reference_3.pdf"> La fonction cube</a> </p> -->
-		<!-- <p> <a href="m_2_fonctions_reference_4.pdf"> La fonction racine carrée </a> </p> -->
-		
-		<!-- <p> <a class= "qcm" href="https://doctools.dgpad.net/exam.php?datas=eyJiYXNlaWQiOiIxWHhYckM2cFFlZzlWdzNVa1I1NzJFTFY0VUV1Y3Q5Q0pkQkJFNGhQX3NubyIsImRlX2Jhc2UiOiIxNWtnV0tfQmNXenhnSER5NjlrVDUyc0ZacmpUSmNsSDg2V19kMWFhNERxTSIsImlkIjoiMUhYQzk0MlJtb0FqdEgxR3hQaWlndldJb1VnU3Bzc1dGVHNiU2hWVjhKQ2MiLCJ1c2VycyI6IkFub255bWUifQ==",target="_blank">  Se tester avec un QCM  </a> </p> -->
-		
-		<!-- <p> <a class= "qcm" href="https://doctools.dgpad.net/exam.php?datas=eyJiYXNlaWQiOiIxWHhYckM2cFFlZzlWdzNVa1I1NzJFTFY0VUV1Y3Q5Q0pkQkJFNGhQX3NubyIsImRlX2Jhc2UiOiIxNWtnV0tfQmNXenhnSER5NjlrVDUyc0ZacmpUSmNsSDg2V19kMWFhNERxTSIsImlkIjoiMWRmNlprS2I4YlNidVlmNTVOaG1EOUNXYTlMdklOOGNhbFZ5bEdKMm02dm8iLCJ1c2VycyI6IkFub255bWUifQ==",target="_blank"> Refaire l'interro </a> </p> -->
+    <!-- <div class="ressource-text"> -->
+      <!-- <h2 class="ressource-title">Vidéos</h2> -->
+    <!-- </div> -->
+  <!-- </a> -->
+<!-- </article> -->
 
-		<!-- <h2>Fonctions affines et tableaux de signes</h2> -->
-		
-		<!-- <p> <a href="m_2_fonctions_affines_1.pdf", target="_blank">  Définition et représentation graphique </a> </p> -->
-		<!-- <p> <a href="m_2_fonctions_affines_2.pdf", target="_blank">  Etude des variations et du signe </a> </p> -->
-		<!-- <p> <a href="m_2_fonctions_affines_3.pdf", target="_blank">  Tableaux de signes et Inéquations </a> </p> -->
-		
-		
-		
-		<h2>Chapitre 6 :Repèrage</h2>
-		
-		
-		<p> <a href="m_2_reperage_activite.pdf", target="_blank"> Mais ils sont où les carrées ? :-) </a> </p>
-		<p> <a href="m_2_reperage_1.pdf", target="_blank">  Coordonnées d'un point </a> </p>
-		<p> <a href="m_2_reperage_2.pdf", target="_blank">  Coordonnées d'un vecteur </a> </p>
-		<p> <a href="m_2_reperage_3.pdf", target="_blank">  Colinéarité de deux vecteurs </a> </p>
-		
-		<h2>Chapitre 7 :Fonctions affines</h2>
-		
-		
-		<p> <a href="m_2_affines_1.pdf", target="_blank"> Définitions et premières propriétés </a> </p>
-		<p> <a class = "qcm" href="https://doctools.dgpad.net/exam.php?datas=eyJiYXNlaWQiOiIxWHhYckM2cFFlZzlWdzNVa1I1NzJFTFY0VUV1Y3Q5Q0pkQkJFNGhQX3NubyIsImRlX2Jhc2UiOiIxNWtnV0tfQmNXenhnSER5NjlrVDUyc0ZacmpUSmNsSDg2V19kMWFhNERxTSIsImlkIjoiMThZUlpqWVU0VU1zVWl6UmZUUjVHVzhQeUlINW0zVDNLSXMyOGItMDg1aGciLCJ1c2VycyI6IkFub255bWUifQ==" target="_blank"> S'entraîner avec la signification géométrique de m et p</a> </p>
-		<p> <a href="m_2_affines_2.pdf", target="_blank"> Etude d'une fonction affine </a> </p>
-		<p> <a href="m_2_affines_3.pdf", target="_blank"> Tableaux de signes et inéquations </a> </p>
-		
-		<h2>Chapitre 8 :Probabilités</h2>
-		
-		
-		<p> <a href="m_2_probas_1.pdf", target="_blank"> Expérience aléatoire </a> </p>
-		<p> <a href="m_2_probas_2.pdf", target="_blank"> Loi de probabilité </a> </p>
-	
+
+<!-- <article class="ressource-card"> -->
+  <!-- <a class="ressource-link" href="video_maths.pdf" target="_blank" rel="noopener"> -->
+    <!-- <div class="ressource-thumb"> -->
+      <!-- <img src="clap_video.jpg" -->
+           <!-- alt="Miniature " -->
+           <!-- class="ressource-img"> -->
+    <!-- </div> -->
+
+    <!-- <div class="ressource-text"> -->
+      <!-- <h2 class="ressource-title">Ressources IA</h2> -->
+    <!-- </div> -->
+  <!-- </a> -->
+<!-- </article> -->
+
+
+</section>
+  
+
+      <!-- =======================
+           CONTENU (issu de l'ancienne page)
+           ======================= -->
+<div id="contenu_cours">   
+
+        <details class="chapitre">
+          <summary>
+            <span class="chapitre-titre">
+			 <img src="miniatures/mini_1.png" alt="Miniature chapitre 1" class="miniature">
+			Chapitre 1 : Nombres et intervalles</span>
+          </summary>
+          <div class="details-content">
+            <p><a href="m_2_ch1_1.pdf">Les ensembles de nombres</a></p>
+            <p><a class="qcm" href="https://doctools.dgpad.net/exam.php?datas=eyJiYXNlaWQiOiIxWHhYckM2cFFlZzlWdzNVa1I1NzJFTFY0VUV1Y3Q5Q0pkQkJFNGhQX3NubyIsImRlX2Jhc2UiOiIxNWtnV0tfQmNXenhnSER5NjlrVDUyc0ZacmpUSmNsSDg2V19kMWFhNERxTSIsImlkIjoiMVlWRV9mSnJ1YkxoQzlRMl9VMkxQRXZ4YzRiYmZ0Qk5EZjJhaTllUjZ3b28iLCJ1c2VycyI6IkFub255bWUifQ==" target="_blank" rel="noopener">QCM pour s'entraîner avant l'IE</a></p>
+            <p><a href="m_2_ch1_2.pdf">Les intervalles</a></p>
+            <p><a href="m_2_ch1_3.pdf">Les puissances</a></p>
+            <p><a href="m_2_ch1_4.pdf">Les racines carrées</a></p>
+            <p><a href="m_2_ch1_5.pdf">La valeur absolue</a></p>
+            <p><a href="m_2_ch1_6.pdf">Divisibilité et parité</a></p>
+            <p><a href="m_2_ch1_7.pdf">Les nombres premiers</a></p>
+          </div>
+        </details>
+
+        <details class="chapitre">
+          <summary>
+            <span class="chapitre-titre">
+			<img src="miniatures/mini_2.png" alt="Miniature chapitre 1" class="miniature">
+			Chapitre 2 : Généralités sur les fonctions</span>
+          </summary>
+          <div class="details-content">
+            <p><a href="m_2_generalites_fonctions_1.pdf">La notion de fonction</a></p>
+            <p><a href="m_2_generalites_fonctions_2.pdf">Courbe représentative de fonction</a></p>
+            <p><a class="qcm" href="https://doctools.dgpad.net/exam.php?datas=eyJiYXNlaWQiOiIxWHhYckM2cFFlZzlWdzNVa1I1NzJFTFY0VUV1Y3Q5Q0pkQkJFNGhQX3NubyIsImRlX2Jhc2UiOiIxNWtnV0tfQmNXenhnSER5NjlrVDUyc0ZacmpUSmNsSDg2V19kMWFhNERxTSIsImlkIjoiMVZCYXo2QUxueWlSLWJRQVptVlllZHpqRV9zalNqZFVkT3RDa3NaTk9NbkUiLCJ1c2VycyI6IkFub255bWUifQ==" target="_blank" rel="noopener">QCM Lectures graphiques</a></p>
+            <p><a href="m_2_generalites_fonctions_3.pdf">Fonction paire, fonction impaire</a></p>
+            <p><a href="m_2_generalites_fonctions_4.pdf">Découvrir les fonctions de référence</a></p>
+          </div>
+        </details>
+
+        <details class="chapitre">
+          <summary>
+            <span class="chapitre-titre">
+			<img src="miniatures/mini_3.png" alt="Miniature chapitre 1" class="miniature">
+			Chapitre 3 : Les vecteurs du plan
 			
-		<!-- <h2>Informations chiffrées</h2> -->
-		
-		<!-- <p> <a href="m_2_info_1.pdf", target="_blank">  Proportions et pourcentages  </a> </p> -->
-		<!-- <p> <a href="m_2_info_2.pdf", target="_blank">  Evolution  </a> </p> -->
-		<!-- <p> <a href="m_2_info_3.pdf", target="_blank">  Hors-programme : les indices </a> </p> -->
-		
-		
-		
-		<h2>Chapitre 9 :Equations cartésiennes</h2>
-		
-		<p> <a href="m_2_eq_cart_1.pdf", target="_blank">  Equations cartésiennes  </a> </p>
-		<p> <a href="m_2_eq_cart_2.pdf", target="_blank">  Equation réduite  </a> </p>
-		<p> <a href="m_2_eq_cart_3.pdf", target="_blank">  Position relative de deux droites du plan  </a> </p>
-		<p> <a href="m_2_eq_cart_4.pdf", target="_blank">  Point d'intersection de deux droites du plan  </a> </p>
-		
-		<h2>Comprendre Python</h2>
-		
-		
-		<p> <a class="autre" href="py1.gif", target="_blank">  Mémento Python (affectation, type de données, affichage)  </a> </p>
-		<p> <a class = "autre" href="py2.gif", target="_blank">  Mémento Python (SI ALORS, POUR , TANT QUE , les fonctions ...) </a> </p>
-		<p> <a class="td" href="m_2_python_1.pdf", target="_blank">  prise en main de Python  </a> </p>
-		<p> <a class="td" href="m_2_python_2.pdf", target="_blank">  L'instruction conditionnelle  </a> </p>
-		<p> <a class="td" href="m_2_python_3.pdf", target="_blank">  Les fonctions python </a> </p>
-		<p> <a class="td" href="m_2_python_turtle.pdf", target="_blank">  Dessiner avec python </a> </p>
-		<!-- <p> <a class="td" href="m_2_python_4.pdf", target="_blank">  Comprendre la boucle TANT QUE  </a> </p> -->
-			
-		<h2> TDs </h2>
-		
-		<p> <a class="td" href="m_2_developper.pdf", target="_blank">  Développer  </a> </p>
-		<p> <a class="td" href="m_2_identites.pdf", target="_blank">  Développer avec les identités remarquables  </a> </p>
-		<p> <a class="td" href="m_2_factorisations.pdf", target="_blank">  Factorisations  </a> </p>
-		<p> <a class="td" href="m_2_equations_produit.pdf", target="_blank">  Equation produit  </a> </p>
-		<p> <a class="td" href="m_2_equations_rationnelles.pdf", target="_blank">  Equations rationnelles  </a> </p>
-			
-    </div>
-    
-    <p id="footer">jb duthoit</p>
+			</span>
+          </summary>
+          <div class="details-content">
+            <p><a href="vecteurs_1.pdf">Qu'est-ce qu'un vecteur ?</a></p>
+            <p><a href="vecteurs_2.pdf">Opérations sur les vecteurs</a></p>
+            <p><a href="vecteurs_3.pdf">Vecteurs colinéaires</a></p>
+            <p><a class="qcm" href="https://doctools.dgpad.net/exam.php?datas=eyJiYXNlaWQiOiIxWHhYckM2cFFlZzlWdzNVa1I1NzJFTFY0VUV1Y3Q5Q0pkQkJFNGhQX3NubyIsImRlX2Jhc2UiOiIxNWtnV0tfQmNXenhnSER5NjlrVDUyc0ZacmpUSmNsSDg2V19kMWFhNERxTSIsImlkIjoiMWRmNlprS2I4YlNidVlmNTVOaG1EOUNXYTlMdklOOGNhbFZ5bEdKMm02dm8iLCJ1c2VycyI6IkFub255bWUifQ==" target="_blank" rel="noopener">QCM vecteurs</a></p>
+          </div>
+        </details>
+
+        <details class="chapitre">
+          <summary>
+            <span class="chapitre-titre">Chapitre 5 : Variations et extréma de fonctions</span>
+          </summary>
+          <div class="details-content">
+            <p><a href="m_2_variations_1.pdf">Variations de fonctions</a></p>
+            <p><a href="m_2_variations_2.pdf">Extréma de fonction</a></p>
+            <p><a href="m_2_variations_3.pdf">Variation des fonctions de référence</a></p>
+          </div>
+        </details>
+
+        <details class="chapitre">
+          <summary>
+            <span class="chapitre-titre">Chapitre 6 : Repérage</span>
+          </summary>
+          <div class="details-content">
+            <p><a href="m_2_reperage_activite.pdf" target="_blank" rel="noopener">Mais ils sont où les carrées ? :-)</a></p>
+            <p><a href="m_2_reperage_1.pdf" target="_blank" rel="noopener">Coordonnées d'un point</a></p>
+            <p><a href="m_2_reperage_2.pdf" target="_blank" rel="noopener">Coordonnées d'un vecteur</a></p>
+            <p><a href="m_2_reperage_3.pdf" target="_blank" rel="noopener">Colinéarité de deux vecteurs</a></p>
+          </div>
+        </details>
+
+        <details class="chapitre">
+          <summary>
+            <span class="chapitre-titre">Chapitre 7 : Fonctions affines</span>
+          </summary>
+          <div class="details-content">
+            <p><a href="m_2_affines_1.pdf" target="_blank" rel="noopener">Définitions et premières propriétés</a></p>
+            <p><a class="qcm" href="https://doctools.dgpad.net/exam.php?datas=eyJiYXNlaWQiOiIxWHhYckM2cFFlZzlWdzNVa1I1NzJFTFY0VUV1Y3Q5Q0pkQkJFNGhQX3NubyIsImRlX2Jhc2UiOiIxNWtnV0tfQmNXenhnSER5NjlrVDUyc0ZacmpUSmNsSDg2V19kMWFhNERxTSIsImlkIjoiMThZUlpqWVU0VU1zVWl6UmZUUjVHVzhQeUlINW0zVDNLSXMyOGItMDg1aGciLCJ1c2VycyI6IkFub255bWUifQ==" target="_blank" rel="noopener">S'entraîner : signification géométrique de m et p</a></p>
+            <p><a href="m_2_affines_2.pdf" target="_blank" rel="noopener">Étude d'une fonction affine</a></p>
+            <p><a href="m_2_affines_3.pdf" target="_blank" rel="noopener">Tableaux de signes et inéquations</a></p>
+          </div>
+        </details>
+
+        <details class="chapitre">
+          <summary>
+            <span class="chapitre-titre">Chapitre 8 : Probabilités</span>
+          </summary>
+          <div class="details-content">
+            <p><a href="m_2_probas_1.pdf" target="_blank" rel="noopener">Expérience aléatoire</a></p>
+            <p><a href="m_2_probas_2.pdf" target="_blank" rel="noopener">Loi de probabilité</a></p>
+          </div>
+        </details>
+
+        <details class="chapitre">
+          <summary>
+            <span class="chapitre-titre">Chapitre 9 : Équations cartésiennes</span>
+          </summary>
+          <div class="details-content">
+            <p><a href="m_2_eq_cart_1.pdf" target="_blank" rel="noopener">Équations cartésiennes</a></p>
+            <p><a href="m_2_eq_cart_2.pdf" target="_blank" rel="noopener">Équation réduite</a></p>
+            <p><a href="m_2_eq_cart_3.pdf" target="_blank" rel="noopener">Position relative de deux droites du plan</a></p>
+            <p><a href="m_2_eq_cart_4.pdf" target="_blank" rel="noopener">Point d'intersection de deux droites du plan</a></p>
+          </div>
+        </details>
+
+        <details class="chapitre">
+          <summary>
+            <span class="chapitre-titre">Comprendre Python</span>
+          </summary>
+          <div class="details-content">
+            <p><a class="autre" href="py1.gif" target="_blank" rel="noopener">Mémento Python (affectation, types, affichage)</a></p>
+            <p><a class="autre" href="py2.gif" target="_blank" rel="noopener">Mémento Python (SI ALORS, POUR, TANT QUE, fonctions…)</a></p>
+            <p><a class="td" href="m_2_python_1.pdf" target="_blank" rel="noopener">Prise en main de Python</a></p>
+            <p><a class="td" href="m_2_python_2.pdf" target="_blank" rel="noopener">L'instruction conditionnelle</a></p>
+            <p><a class="td" href="m_2_python_3.pdf" target="_blank" rel="noopener">Les fonctions Python</a></p>
+            <p><a class="td" href="m_2_python_turtle.pdf" target="_blank" rel="noopener">Dessiner avec Python</a></p>
+          </div>
+        </details>
+
+        <details class="chapitre">
+          <summary>
+            <span class="chapitre-titre">TDs</span>
+          </summary>
+          <div class="details-content">
+            <p><a class="td" href="m_2_developper.pdf" target="_blank" rel="noopener">Développer</a></p>
+            <p><a class="td" href="m_2_identites.pdf" target="_blank" rel="noopener">Développer avec les identités remarquables</a></p>
+            <p><a class="td" href="m_2_factorisations.pdf" target="_blank" rel="noopener">Factorisations</a></p>
+            <p><a class="td" href="m_2_equations_produit.pdf" target="_blank" rel="noopener">Équation produit</a></p>
+            <p><a class="td" href="m_2_equations_rationnelles.pdf" target="_blank" rel="noopener">Équations rationnelles</a></p>
+          </div>
+        </details>
+
+      </section>
+    </main>
+
+    <footer id="footer">
+      jb duthoit
+    </footer>
+
   </div>
-  </body>
+
+  <script>
+  (async function () {
+    const el = document.getElementById('citation');
+    if (!el) return;
+
+    const fallback = [
+      "Les mathématiques sont la poésie de la logique. — Albert Einstein",
+      "Faire des mathématiques, c’est apprendre à raisonner juste. — Henri Poincaré"
+    ];
+
+    try {
+      const resp = await fetch('citations.txt', { cache: 'no-store' });
+      if (!resp.ok) throw new Error('HTTP ' + resp.status);
+      const txt = await resp.text();
+
+      const lines = txt
+        .split(/\r?\n/)
+        .map(s => s.trim())
+        .filter(s => s && !s.startsWith('#'));
+
+      const pool = lines.length ? lines : fallback;
+      el.textContent = pool[Math.floor(Math.random() * pool.length)];
+    } catch (e) {
+      el.textContent = fallback[Math.floor(Math.random() * fallback.length)];
+    }
+  })();
+  </script>
+</body>
 </html>

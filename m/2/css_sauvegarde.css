@@ -1,0 +1,388 @@
+body {
+  margin: 10px 0;
+  padding: 0;
+  text-align: center;
+  font: 0.8em "Trebuchet MS", helvetica, sans-serif;
+  background: #DCDFEC;
+}
+
+div#conteneur {
+  width: auto;
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 12px;
+  border: 2px solid #2F4391;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.12);
+}
+
+/* un peu plus d'air sur écrans moyens+ */
+@media (min-width: 768px) {
+  div#conteneur { padding: 16px 20px; }
+}
+
+/* ----------- Structure principale ----------- */
+#header {
+  position: relative;
+  height: auto;
+  min-height: 40px;
+  background: #ffffff;
+  border-radius: 16px 16px 0 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 10px 30px 12px;
+  color: #2F4391;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: clamp(12px, 3vw, 24px);
+}
+
+/* bloc de gauche : logo + titre */
+#header .logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* image ronde */
+#header img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+/* texte du header */
+.header-text {
+  display: flex;
+  flex-direction: column;
+}
+
+/* titre principal */
+#header h1 {
+  margin: 0;
+  font-size: 1.8em;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  color: #2F4391;
+}
+
+/* ----------- Citation alignée à droite ----------- */
+#header {
+  position: relative;
+}
+
+#header #citation {
+  position: absolute;
+  right: 40px;
+  bottom: 2px;
+  font-size: 0.9em;
+  font-style: italic;
+  color: #7481b5;
+  line-height: 1.4em;
+}
+
+/* sur mobile : tout recentré */
+@media (max-width: 600px) {
+  #header {
+    align-items: center;
+    text-align: center;
+  }
+  #header #citation {
+    text-align: center;
+    align-self: center;
+    position: static;
+    margin-top: 6px;
+  }
+}
+
+/* ----------- Menu horizontal ----------- */
+ul#menu {
+  background: linear-gradient(90deg, #2F4391 0%, #7481b5 100%);
+  border-radius: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 0 20px 30px rgba(47, 67, 145, 0.3);
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 0;
+  justify-content: center;
+}
+
+ul#menu li {
+  float: none;
+}
+
+ul#menu li a {
+  border-right: 0;
+  border-radius: 8px;
+  line-height: 32px;
+  padding-left: 12px;
+  padding-right: 12px;
+  color: #fff;
+  white-space: nowrap;
+  display: block;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+ul#menu li a:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* ----------- Contenu des cours ----------- */
+div#contenu_cours h2 {
+  text-align: left;
+  margin: 40px 0 12px 0;
+  padding-left: 10px;
+  line-height: 1.4em;
+  font-size: 1.4em;
+  color: #2F4391;
+  border-left: 5px solid #2F4391;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+div#contenu_cours h3 {
+  margin-left: 35px;
+  padding-left: 5px;
+  border-left: 5px solid #7481b5;
+  color: #7481b5;
+}
+
+div#contenu_cours p {
+  text-align: justify;
+  text-indent: 2em;
+  line-height: 1.7em;
+}
+
+div#contenu_cours a {
+  color: black;
+  font-size: 1.17em;
+  text-decoration: none;
+  margin-left: 35px;
+  padding-left: 5px;
+  border-left: 5px solid #7481b5;
+}
+
+div#contenu_cours a.qcm {
+  border-left: 5px solid #7F230D;
+}
+
+div#contenu_cours a.autre {
+  border-left: 5px solid white;
+}
+
+div#contenu_cours a:hover {
+  color: #7481b5;
+}
+
+p#footer {
+  margin: 0;
+  padding-right: 10px;
+  line-height: 30px;
+  text-align: right;
+  color: #7481b5;
+}
+
+pre {
+  overflow: auto;
+  background: #dea;
+  border: 2px solid #9b2;
+  padding: 5px 0 0 5px;
+  font-size: 1.2em;
+}
+
+pre span {
+  color: #560;
+}
+
+pre span.comment {
+  color: #b30000;
+}
+
+div#contenu_cours a.metier {
+  border-left: 5px solid pink;
+}
+
+/* ======= Grille ressources accueil ======= */
+.ressources-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  justify-items: center;
+}
+
+.ressource-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%;
+  max-width: 320px;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.ressource-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.ressource-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  height: 100%;
+}
+
+.ressource-thumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f0f0f0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.ressource-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.ressource-text {
+  padding: 0.75rem;
+}
+
+.ressource-title {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #222;
+}
+
+/* vignette à droite */
+.ressource-img {
+  width: 140px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #2F4391;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+/* ===== Bloc chapitre avec miniature à gauche ===== */
+.chapitre {
+  margin: 24px 0;
+  border-left: 5px solid #2F4391;
+  border-radius: 8px;
+  background: rgba(47, 67, 145, 0.05);
+  overflow: hidden;
+}
+
+/* summary : titre + image + chevron à droite */
+.chapitre > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  cursor: pointer;
+  padding: 12px 14px;
+  color: #2F4391;
+  font-weight: 700;
+  font-size: 1.2em;
+  letter-spacing: -0.01em;
+  user-select: none;
+  outline: none;
+  gap: 10px;
+}
+
+/* bloc gauche : miniature + texte */
+.chapitre > summary > span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* miniature à gauche */
+.miniature {
+  width: 62px;
+  height: 62px;
+  object-fit: cover;
+  border-radius: 8px;             /* angles doux */
+  border: none;                   /* plus de bordure bleue */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);  /* ombre légère à la place */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.chapitre > summary:hover .miniature {
+  transform: scale(1.05);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.35);
+}
+}
+
+/* chevron à droite */
+.chapitre > summary::after {
+  content: "▸";
+  transition: transform 0.2s ease;
+  font-weight: 700;
+}
+
+.chapitre[open] > summary::after {
+  transform: rotate(90deg);
+}
+
+/* contenu du chapitre */
+.details-content {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  padding: 0 14px;
+  transition: max-height 0.35s ease, opacity 0.25s ease;
+}
+
+.chapitre[open] .details-content {
+  max-height: 800px;
+  opacity: 1;
+  padding-bottom: 10px;
+}
+
+/* version mobile compacte */
+@media (max-width: 600px) {
+  .miniature {
+    width: 32px;
+    height: 32px;
+    border-width: 1.5px;
+    margin-right: 6px;
+  }
+  .chapitre > summary {
+    font-size: 1.05em;
+    padding: 10px 12px;
+  }
+}
+
+/* Liseret bleu après les miniatures */
+.separateur {
+  height: 6px;
+  margin: 32px 0 24px;
+  border-radius: 4px;
+  background: linear-gradient(
+    90deg,
+    rgba(47, 67, 145, 0.6) 0%,
+    rgba(94, 114, 194, 0.45) 50%,
+    rgba(47, 67, 145, 0.6) 100%
+  );
+  box-shadow: 0 2px 8px rgba(47, 67, 145, 0.25);
+  backdrop-filter: blur(2px);
+}
