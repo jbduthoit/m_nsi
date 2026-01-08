@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Vidéos sur l'IA</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background: #f4f4f9; padding: 20px; }
+        h1 { text-align: center; color: #333; }
+
+        /* Le conteneur magique qui gère le nombre de vidéos */
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .video-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .video-card iframe { width: 100%; height: 200px; border: none; }
+
+        .video-info { padding: 15px; }
+        .video-info h3 { margin: 0 0 10px 0; font-size: 1.1em; }
+    </style>
+</head>
+<body>
+
+    <h1>Vidéos conseillées :-)</h1>
+
+    <div class="video-grid" id="gallery">
+        </div>
+
+    <script>
+        // --- C'EST ICI QUE VOUS AJOUTEZ VOS VIDÉOS ---
+        const videos = [
+            { title: "Comprendre Chat GPT", id: "j3fvoM5Er2k" },
+            ,
+            // Ajoutez une ligne ici pour chaque nouvelle vidéo
+        ];
+
+        const gallery = document.getElementById('gallery');
+
+        videos.forEach(vid => {
+            const card = document.createElement('div');
+            card.className = 'video-card';
+            card.innerHTML = `
+                <iframe src="https://www.youtube.com/embed/${vid.id}" allowfullscreen></iframe>
+                <div class="video-info">
+                    <h3>${vid.title}</h3>
+                </div>
+            `;
+            gallery.appendChild(card);
+        });
+    </script>
+</body>
+</html>
