@@ -28,6 +28,13 @@
 
         .video-info { padding: 15px; }
         .video-info h3 { margin: 0 0 10px 0; font-size: 1.1em; }
+		
+		.video-description {
+    font-size: 0.9em;
+    color: #555;      /* Gris foncé pour ne pas voler la vedette au titre */
+    margin-top: 8px;  /* Petit espace sous le titre */
+    line-height: 1.4; /* Espacement entre les lignes pour la lisibilité */
+}
     </style>
 </head>
 <body>
@@ -40,8 +47,8 @@
     <script>
         // --- C'EST ICI QUE VOUS AJOUTEZ VOS VIDÉOS ---
         const videos = [
-            { title: "Comprendre Chat GPT", id: "j3fvoM5Er2k" },
-			 { title: "Le paradoxe du prisonnier", id: "G9ER5bLxQEU" },
+            { title: "Comprendre Chat GPT", id: "j3fvoM5Er2k" ,description: "Une vidéo incroyable pour comprendre comment fonctionne les grands modèles de langage (LLM)"},
+			 { title: "Le paradoxe du prisonnier", id: "G9ER5bLxQEU",description: "Peut-on être trop rationnel pour son propre bien ? Le dilemme du prisonnier révèle ce paradoxe fascinant où l'égoïsme logique de chacun conduit au pire résultat pour tous, transformant la méfiance en un piège mathématique dont la seule issue est la coopération" },
 			
             ,
             // Ajoutez une ligne ici pour chaque nouvelle vidéo
@@ -56,6 +63,7 @@
                 <iframe src="https://www.youtube.com/embed/${vid.id}" allowfullscreen></iframe>
                 <div class="video-info">
                     <h3>${vid.title}</h3>
+					<p class="video-description">${vid.description}</p>
                 </div>
             `;
             gallery.appendChild(card);
