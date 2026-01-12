@@ -43,13 +43,11 @@ div#conteneur {
 #header .logo {
   display: flex;
   align-items: center;
-  gap: 16px;
 }
-
 /* image ronde */
 #header img {
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
   border-radius: 50%;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
@@ -59,31 +57,20 @@ div#conteneur {
 .header-text {
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
 /* titre principal */
 #header h1 {
-  margin: 0;
-  font-size: 1.8em;
-  letter-spacing: -0.02em;
+  margin: 20;
+  font-size: 2.8em;
+  letter-spacing: 0.02em;
   font-weight: 700;
   color: #2F4391;
+  text-align: center;
 }
 
-/* ----------- Citation alignée à droite ----------- */
-#header {
-  position: relative;
-}
 
-#header #citation {
-  position: absolute;
-  right: 40px;
-  bottom: 2px;
-  font-size: 0.9em;
-  font-style: italic;
-  color: #7481b5;
-  line-height: 1.4em;
-}
 
 /* sur mobile : tout recentré */
 @media (max-width: 600px) {
